@@ -98,9 +98,9 @@ export const Sidebar = () => {
                         
                         <SidebarWrap className="SidebarWrap">
                             <Scrollbars style={{ width: 300, height: 1000 }}>
-                                Hello
+                                {/* Hello
                                 Map 
-                                Sidebar Data here 🍩 
+                                Sidebar Data here 🍩  */}
                                 {SidebarData.map((item, index) => {
                                     return <SubMenu item={item} key={index} />;
                                     // return (

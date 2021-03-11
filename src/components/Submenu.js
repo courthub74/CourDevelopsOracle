@@ -47,21 +47,33 @@ const SubMenu = ({item}) => {
 
     return (
         <>
-            <SidebarLink to={item.path}>
-                <SidebarLabel>Linky Link</SidebarLabel>
+            <SidebarLink to={item.path} onClick={item.subNav && showSubnav}>
+
+                <div>
+                {item.icon}
+                    <SidebarLabel>{item.title}</SidebarLabel>
+                </div>
+
+                    {item.subNav && subNav
+                        ? item.iconOpened
+                        : item.subNav
+                        ? item.iconClosed
+                        : null}
+                
             </SidebarLink>
 
             {subNav && item.subNav.map((item, index) => {
                 return (
-                    <DropdownLink>
-                        <SidebarLabel>Dropy Drop</SidebarLabel>
+                    <DropdownLink to={item.path} key={index}>
+                        {item.icon}
+                        <SidebarLabel>{item.title}</SidebarLabel>
                     </DropdownLink>
                 );
             })}
 
                 
         </>
-    )
-}
+    );
+};
 
 export default SubMenu;
