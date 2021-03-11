@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -39,17 +39,27 @@ const DropdownLink = styled(Link)`
     }
 `;
 
-
 const SubMenu = ({item}) => {
+
+    const [subNav, setSubnav] = useState(false);
+
+    const showSubnav = () => setSubnav(!subNav);
+
     return (
         <>
-            <SidebarLink>
+            <SidebarLink to={item.path}>
                 <SidebarLabel>Linky Link</SidebarLabel>
             </SidebarLink>
 
-                <DropdownLink>
-                    <SidebarLabel>Dropy Drop</SidebarLabel>
-                </DropdownLink>
+            {subNav && item.subNav.map((item, index) => {
+                return (
+                    <DropdownLink>
+                        <SidebarLabel>Dropy Drop</SidebarLabel>
+                    </DropdownLink>
+                );
+            })}
+
+                
         </>
     )
 }
