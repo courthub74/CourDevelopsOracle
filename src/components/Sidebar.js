@@ -8,8 +8,9 @@ import './Navbar.css'
 import SubMenu from './Submenu';
 import { Scrollbars } from 'react-custom-scrollbars';
 import * as FaIcons from 'react-icons/fa';
-// import { SiTodoist } from 'react-icons/si';
+// import * as AiIcons from 'react-icons/ai';
 import { ToDos } from './ToDos';
+
 // import { Button } from '../Button'
 
 
@@ -41,8 +42,9 @@ const SidebarNav = styled.nav`
     justify-content: center;
     position: fixed;
     top: 5;
-    left: ;
-    transition: 350ms;
+    overflow-y: auto;
+    left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
+    transition: 600ms;
     z-index: 10;
 `;
 
@@ -65,7 +67,7 @@ export const Sidebar = () => {
                 <Nav className="NavbarItems">
 
                     <NavIcon to='#'>
-                        <FaIcons.FaBars onClick={showSidebar} />
+                        <FaIcons.FaBars onClick={showSidebar} />  {/*Sets Up a On/Off Switch */} 
                     </NavIcon>
 
                     <h1 className="navbar-logo">CourDevelops
@@ -94,25 +96,29 @@ export const Sidebar = () => {
 
                 {/* SideBar Part */}
 
-                    <SidebarNav>
+                    <SidebarNav sidebar={sidebar}>
                         
                         <SidebarWrap className="SidebarWrap">
-                            <Scrollbars style={{ width: 300, height: 1000 }}>
-                                {/* Hello
-                                Map 
-                                Sidebar Data here 🍩  */}
-                                {SidebarData.map((item, index) => {
-                                    return <SubMenu item={item} key={index} />;
-                                    // return (
-                                    //     <li key={index} className={item.cName}>
-                                    //         <Link to={item.path}>
-                                    //             {item.icon}
-                                    //             <span>{item.title}</span>
-                                    //         </Link>
-                                    //     </li>
-                                    // )
-                                })}
-                            </Scrollbars>
+                            
+                                    <Scrollbars className="scroll">
+                                        {/* Hello Map Sidebar Data here 🍩  */}
+                                        
+                                        {SidebarData.map((item, index) => {
+                                            return <SubMenu item={item} key={index} />;
+
+                                            //BELOW is the manual way. ABOVE is the automap way
+                                            // return (
+                                            //     <li key={index} className={item.cName}>
+                                            //         <Link to={item.path}>
+                                            //             {item.icon}
+                                            //             <span>{item.title}</span>
+                                            //         </Link>
+                                            //     </li>
+                                            // )
+
+                                        })}
+                                    </Scrollbars>
+                            
                         </SidebarWrap>
                     </SidebarNav>
             </IconContext.Provider> 

@@ -71,6 +71,15 @@
     display: none;
 }
 
+.scroll {
+    color: #fff;
+    width: auto;
+    height: 100%;
+    padding-bottom: 5rem;
+    top: 0;
+    bottom: 0;
+}
+
 @media screen and (max-width: 960px) {
     .NavbarItems {
         position: relative;

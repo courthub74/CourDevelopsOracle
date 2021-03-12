@@ -246,6 +246,10 @@ export const SidebarData = [
         iconOpened: <RiIcons.RiArrowUpSFill />,
         subNav: [
             {
+                title: 'Start React App',
+                path: '/react/start',
+            },
+            {
                 title: 'Constructor',
                 path: '/react/constructor',
             },
