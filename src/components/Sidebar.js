@@ -37,7 +37,7 @@ const NavIcon = styled(Link)`
 const SidebarNav = styled.nav`
     background: #09090B;
     width: 300px;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     position: fixed;
