@@ -6,6 +6,7 @@ import { Python } from './pages/Python';
 import { Javascript } from './pages/Javascript';
 import { Projects } from './pages/Projects';
 import { PYFunctions } from './pages/PYFunctions';
+import { SelfParameter } from './pages/Python/SelfParameter';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path='/pages/Home' exact component={Home} />
             <Route path='/python' exact component={Python} />
             <Route path='/python/functions' exact component={PYFunctions} />
+            <Route path='/python/self' exact component={SelfParameter} />
             <Route path='/javascript' exact component={Javascript} />
             <Route path='/pages/projects' exact component={Projects} />
           </Switch>

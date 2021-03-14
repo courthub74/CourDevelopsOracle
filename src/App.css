@@ -9,7 +9,8 @@
 .python,
 .javascript,
 .projects,
-.pyfunctions {
+.pyfunctions,
+.selfparam {
   display: flex;
   height: 90vh;
   align-items: center;
