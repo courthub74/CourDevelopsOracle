@@ -9,7 +9,7 @@ export const SelfParameter = () => {
         <div className="selfparam">
             <Card className="card">
                 <Card.Header>
-                <h1>Self Parameter <SiIcons.SiPython /> </h1>
+                <h1>Self Parameter <SiIcons.SiPython /></h1>
                 </Card.Header>
                 <Card.Body>
                     <Card.Text className="texty">
@@ -33,7 +33,6 @@ export const SelfParameter = () => {
                         <span>under the class or you will get an error stating:</span><br></br>
                         <br></br>
                         <span className="bold">'Player' has no attribute 'printstat'</span>
-
                 </Card.Text>
                 </Card.Body>
             </Card>

@@ -8,7 +8,6 @@ export const Python = () => {
             <Card className='card'> 
                 <Card.Header>Python Generale 🐍</Card.Header>
                     <Card.Body>
-                        
                         <Card.Text>
                         Python is an interpreted, high-level, 
                         general-purpose programming language. <br></br>
@@ -16,7 +15,7 @@ export const Python = () => {
                         released in 1991, Python's design philosophy <br></br> 
                         emphasizes code readability with its notable use of significant whitespace
                         </Card.Text>
-                        <Button variant="primary"><a href="https://www.python.org/" target="_blank"><img src="https://www.python.org/static/img/python-logo.png"></img></a></Button>
+                        <Button variant="dark"><a href="https://www.python.org/" target="_blank"><img src="https://www.python.org/static/img/python-logo.png"></img></a></Button>
                     </Card.Body>
             </Card>
         </div>

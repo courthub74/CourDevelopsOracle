@@ -10,7 +10,9 @@
 .javascript,
 .projects,
 .pyfunctions,
-.selfparam {
+.selfparam,
+.forloop,
+.whileloop {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -29,3 +31,4 @@ img {
 .white {
   color: aliceblue;
 }
+

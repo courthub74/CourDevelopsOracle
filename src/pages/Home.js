@@ -1,5 +1,6 @@
 import React from 'react'
 import {Button, Card} from 'react-bootstrap';
+import './pages.css';
 
 export const Home = () => {
     return (
@@ -14,7 +15,7 @@ export const Home = () => {
                         to guide employees into the creation of awesome problem solving
                         software.
                         </Card.Text>
-                        <Button variant="primary"><a href="https://portfolio.courdevelops.com/" target="_blank" className='white'>Portfolio 📄</a></Button>
+                        <Button variant="dark"><a href="https://portfolio.courdevelops.com/" target="_blank" className='white'>Portfolio 📄</a></Button>
                     </Card.Body>
             </Card>
         </div>
