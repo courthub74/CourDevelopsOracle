@@ -11,7 +11,7 @@
 }
 
 .texty {
-    font-size: large;
+    font-size: small;
 }
 
 img {
@@ -28,4 +28,14 @@ img {
   
   .white {
     color: aliceblue;
+  }
+
+  .notes {
+    font-style: initial;
+    font-size: 10px;
+    color: blue;
+}
+
+  card {
+    height: "100vh"
   }

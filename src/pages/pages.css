@@ -22,4 +22,12 @@ img {
     width: 100px;
 }
 
+.red {
+    color: crimson;
+}
+
+card {
+    height: "100vh"
+  }
+
 

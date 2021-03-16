@@ -2,7 +2,7 @@ import React from 'react'
 import './pages.css';
 import * as SiIcons from 'react-icons/si'
 import { Card } from 'react-bootstrap';
-import { FaIcons } from 'react-icons/fa';
+
 
 
 export const WhileLoop = () => {

@@ -12,7 +12,9 @@
 .pyfunctions,
 .selfparam,
 .forloop,
-.whileloop {
+.whileloop,
+.counter,
+.classes {
   display: flex;
   height: 90vh;
   align-items: center;
