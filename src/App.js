@@ -11,6 +11,7 @@ import { ForLoop } from './pages/Python/ForLoop';
 import { WhileLoop } from './pages/Python/WhileLoop';
 import { Counter } from './pages/Python/Counter';
 import { Classes } from './pages/Python/Classes';
+import { ControlFlow } from './pages/Python/ControlFlow';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path='/python/counter' exact component={Counter} />
             <Route path='/python/self' exact component={SelfParameter} />
             <Route path='/python/classes' exact component={Classes} />
+            <Route path='/python/controlflow' exact component={ControlFlow} />
             <Route path='/javascript' exact component={Javascript} />
             <Route path='/pages/projects' exact component={Projects} />
           </Switch>

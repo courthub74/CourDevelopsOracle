@@ -15,7 +15,8 @@ export const Python = () => {
                         released in 1991, Python's design philosophy <br></br> 
                         emphasizes code readability with its notable use of significant whitespace
                         </Card.Text>
-                        <Button variant="dark"><a href="https://www.python.org/" target="_blank"><img src="https://www.python.org/static/img/python-logo.png"></img></a></Button>
+                        <Button variant="dark"><a href="https://www.python.org/" target="_blank" rel="noreferrer">
+                            <img src="https://www.python.org/static/img/python-logo.png" alt="python"></img></a></Button>
                     </Card.Body>
             </Card>
         </div>

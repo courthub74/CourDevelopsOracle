@@ -13,7 +13,8 @@ export const Javascript = () => {
                         It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, <br></br>
                         and first-class functions.
                         </Card.Text>
-                        <Button variant='dark'><a href="https://www.javascript.com/" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freepnglogos.com%2Fuploads%2Fjavascript-png%2Fjavascript-vector-logo-yellow-png-transparent-javascript-vector-12.png&f=1&nofb=1"></img></a></Button>
+                        <Button variant='dark'><a href="https://www.javascript.com/" target="_blank" rel="noreferrer">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freepnglogos.com%2Fuploads%2Fjavascript-png%2Fjavascript-vector-logo-yellow-png-transparent-javascript-vector-12.png&f=1&nofb=1" alt="javascript"></img></a></Button>
                     </Card.Body>
             </Card>
         </div>

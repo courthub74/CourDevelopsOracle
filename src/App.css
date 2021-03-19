@@ -14,7 +14,8 @@
 .forloop,
 .whileloop,
 .counter,
-.classes {
+.classes,
+.controlflow {
   display: flex;
   height: 90vh;
   align-items: center;

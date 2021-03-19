@@ -58,6 +58,10 @@ export const SidebarData = [
                 title: 'Sending Email',
                 path: '/python/autoemail',
             },
+            {
+                title: 'Authentication',
+                path: '/python/auth',
+            },
         ]
     },
     {
@@ -256,6 +260,10 @@ export const SidebarData = [
             {
                 title: 'Change Class by Click',
                 path: '/react/classchange',
+            },
+            {
+                title: 'Authentication',
+                path: '/react/jsauth',
             },
         ]
     },

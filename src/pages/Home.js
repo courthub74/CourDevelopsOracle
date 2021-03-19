@@ -15,7 +15,8 @@ export const Home = () => {
                         to guide employees into the creation of awesome problem solving
                         software.
                         </Card.Text>
-                        <Button variant="dark"><a href="https://portfolio.courdevelops.com/" target="_blank" className='white'>Portfolio 📄</a></Button>
+                        <Button variant="dark"><a href="https://portfolio.courdevelops.com/" target="_blank" 
+                         rel="noreferrer" className='white'>Portfolio 📄</a></Button>
                     </Card.Body>
             </Card>
         </div>

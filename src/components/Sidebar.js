@@ -96,7 +96,7 @@ export const Sidebar = () => {
 
                 {/* SideBar Part */}
 
-                    <SidebarNav sidebar={sidebar}>
+                    <SidebarNav id="stick" sidebar={sidebar}>
                         
                         <SidebarWrap className="SidebarWrap">
                             
