@@ -12,22 +12,22 @@ export const TryExcept = () => {
                 <Card.Body>
 
                     <Card.Text className="texty">
-                        <span className="notes bold"># Try / Except</span> <br></br>
+                        <span className="notes"># Try / Except</span> <br></br>
                         <br></br>
                         <span>def divides(a,b):</span> <br></br>
-                        <span className='tab5'>try:</span> <br></br>
-                        <span className='tab10'>def divides(a,b):</span> <br></br>
-                        <span className='tab10'>print (result)</span> <br></br>
-                        <span className='tab5'>except ZeroDivisionError:</span> <br></br>
-                        <span className='tab10'>print ("Can't divide by zero!")</span> <br></br>
+                        <span className='tab5 bold'>try:</span> <br></br>
+                        <span className='tab10 bold'>def divides(a,b):</span> <br></br>
+                        <span className='tab10 bold'>print (result)</span> <br></br>
+                        <span className='tab5 bold'>except ZeroDivisionError:</span> <br></br>
+                        <span className='tab10 bold'>print ("Can't divide by zero!")</span> <br></br>
                         <br></br>
-                        <span className="notes bold"># Another Try / Except</span> <br></br>
+                        <span className="notes"># Another Try / Except</span> <br></br>
                         <br></br>
                         <span>def raises_value_error():</span> <br></br>
-                        <span className='tab5'>try:</span> <br></br>
-                        <span className='tab10'>raise ValueError</span> <br></br>
-                        <span className='tab5'>except:</span> <br></br>
-                        <span className='tab5'>print ("You raised a ValueError!")</span> <br></br>
+                        <span className='tab5 bold'>try:</span> <br></br>
+                        <span className='tab10 bold'>raise ValueError</span> <br></br>
+                        <span className='tab5 bold'>except:</span> <br></br>
+                        <span className='tab5 bold'>print ("You raised a ValueError!")</span> <br></br>
                         <br></br>
                         <span>raises_value_error()</span> <br></br>
                     </Card.Text>

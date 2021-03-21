@@ -59,10 +59,6 @@ export const SidebarData = [
                 title: 'Sending Email',
                 path: '/python/autoemail',
             },
-            {
-                title: 'Authentication',
-                path: '/python/auth',
-            },
         ]
     },
     {
@@ -206,6 +202,10 @@ export const SidebarData = [
             {
                 title: 'Django ORM',
                 path: '/django/orm',
+            },
+            {
+                title: 'Authentication',
+                path: '/django/auth',
             },
             {
                 title: 'Heroku Deploy',
