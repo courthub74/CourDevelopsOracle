@@ -31,10 +31,6 @@ export const SidebarData = [
                 path: '/python/while',
             },
             {
-                title: 'Counter',
-                path: '/python/counter',
-            },
-            {
                 title: 'Classes',
                 path: '/python/classes',
             },
@@ -45,7 +41,12 @@ export const SidebarData = [
             {
                 title: 'Regional Expressions',
                 path: '/python/regex',
+                subNav2: [
+                    {title2: 'AlphaNumerics',
+                    path2: '/python/regex/alphanumerics',}
+                ]
             },
+               
             {
                 title: 'TryExcept',
                 path: '/python/tryex',

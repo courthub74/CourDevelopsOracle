@@ -16,7 +16,7 @@ export const Python = () => {
                         emphasizes code readability with its notable use of significant whitespace
                         </Card.Text>
                         <Button variant="dark"><a href="https://www.python.org/" target="_blank" rel="noreferrer">
-                            <img src="https://www.python.org/static/img/python-logo.png" alt="python"></img></a></Button>
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.dataquest.io%2Fwp-content%2Fuploads%2F2020%2F05%2Fpython_logo.png&f=1&nofb=1" alt="python"></img></a></Button>
                     </Card.Body>
             </Card>
         </div>

@@ -10,11 +10,11 @@ export const ForLoop = () => {
                 <Card.Header><h1>For Loop <SiIcons.SiPython /></h1></Card.Header>
                     <Card.Body>
                         <Card.Text className="texty">
-                            <span>ladies = ["Janet", "Tahani", "Elanore"]</span> <br></br>
-                            <span>for x in ladies</span> <br></br>
-                            <span className='tab5'>print(x)</span> <br></br>
+                            <span className='bold'>ladies = ["Janet", "Tahani", "Elanore"]</span> <br></br>
+                            <span className='bold'>for x in ladies</span> <br></br>
+                            <span className='bold tab5'>print(x)</span> <br></br>
                             <br></br>
-                            <span className="bold"># ABOVE prints all 3 names</span> <br></br>
+                            <span className="notes"># ABOVE prints all 3 names</span> <br></br>
                         </Card.Text>
                         <Card.Text>
 

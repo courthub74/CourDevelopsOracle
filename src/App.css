@@ -15,7 +15,9 @@
 .whileloop,
 .counter,
 .classes,
-.controlflow {
+.controlflow,
+.tryex,
+.regex {
   display: flex;
   height: 90vh;
   align-items: center;

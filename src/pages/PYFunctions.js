@@ -17,7 +17,7 @@ export const PYFunctions = () => {
 
                     A function can return data as a result.
                 </Card.Text>
-                <Card.Text className="bold">
+                <Card.Text className="texty bold">
                 <span>def my_function():</span><br></br>
                     <span className='tab5'>print("Hello from a function")</span>
                 </Card.Text>
