@@ -15,6 +15,7 @@ import { ControlFlow } from './pages/Python/ControlFlow';
 import { TryExcept } from './pages/Python/TryExcept';
 import { Regex } from './pages/Python/Regex';
 import { WebScraping } from './pages/Python/WebScraping';
+import { SendingEmail } from './pages/Python/SendingEmail';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
             <Route path='/python/tryex' exact component={TryExcept} />
             <Route path='/python/regex' exact component={Regex} />
             <Route path='/python/webscraping' exact component={WebScraping} />
+            <Route path='/python/autoemail' exact component={SendingEmail} />
             <Route path='/javascript' exact component={Javascript} />
             <Route path='/pages/projects' exact component={Projects} />
           </Switch>

@@ -25,7 +25,8 @@
   font-size: 5rem;
 }
 
-.webscrape {
+.webscrape,
+.sendemail {
   display: flex;
   height: 95vh;
   align-items: center;

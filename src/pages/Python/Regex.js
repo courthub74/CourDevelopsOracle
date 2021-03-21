@@ -8,13 +8,15 @@ export const Regex = () => {
         <div className='regex'>
             <Card>
 
-                <Card.Header><h1>Regional Expressions (Regex)<SiIcons.SiPython /></h1></Card.Header>
+                <Card.Header><h1>Regular Expression (Regex) <SiIcons.SiPython /></h1></Card.Header>
                     <Card.Body>
 
                         <Card.Text className='texty'>
 
-                            <span className='notes'>#Must import BELOW</span><br></br>
+                            <span>A RegEx, or Regular Expression, is a sequence of characters that forms a search pattern</span><br></br>
+                            <span>RegEx can be used to check if a string contains the specified search pattern.</span><br></br>
                             <br></br>
+                            <span className='notes'>#Must import BELOW</span><br></br>
                             <span className='bold'>import re</span><br></br>
                             <span className='bold'>import sandbox</span><br></br>
                             <span className='bold'>import dynamic</span><br></br>
@@ -25,15 +27,11 @@ export const Regex = () => {
                             <span className='bold'>import braces</span><br></br>
                             <span className='bold'>import zeroormore</span><br></br>
                             <br></br>
-                            <br></br>
                             <span className='bold'>text = "Hello, this is some text. Hello"</span><br></br>
-                            <br></br>
                             <br></br>
                             <span className='bold'>pattern = "Hello"</span><br></br>
                             <br></br>
-                            <br></br>
                             <span className='bold'>regex = re.compile(pattern)</span><br></br>
-                            <br></br>
                             <br></br>
                             <span className='bold'>match = regex.search(text)</span><br></br>
                             <span className='notes'>#'search' method only finds the first match</span><br></br>
