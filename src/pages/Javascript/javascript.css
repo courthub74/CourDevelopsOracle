@@ -45,7 +45,9 @@ img {
   }
 
   .javascript,
-  .jsfunctions {
+  .jsfunctions,
+  .jsidentifier,
+  .jsarrownotation {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -53,7 +55,10 @@ img {
     font-size: 5rem;
   }
 
-  .jsfuncbuttons  {
+  .jsfuncbuttons,
+  .jsfuncparambuttons,
+  .jsidbuttons,
+  .jsarrowbuttons  {
     color: whitesmoke;
     background-color: black;
   }

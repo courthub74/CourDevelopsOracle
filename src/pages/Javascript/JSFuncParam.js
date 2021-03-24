@@ -1,7 +1,8 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
+import { Card, Button, ButtonGroup } from 'react-bootstrap'
 import * as SiIcons from 'react-icons/si';
 import './javascript.css';
+import { JSFuncParamsButtons } from './FuncParamButton';
 
 export const JSFuncParam = () => {
     return (
@@ -21,11 +22,19 @@ export const JSFuncParam = () => {
                             <br></br>
                             <span className='notes'>// Prints: One of my fave Hip Hop groups is Gang Starr</span> <br></br>
                             <span className='notes tab5'>Another on of my fave Hip Hop groups is Public Enemy</span> <br></br>
-                            <span></span> <br></br>
-                            <span></span> <br></br>
-                            <span></span> <br></br>
-                            <span></span> <br></br>
                         </Card.Text>
+
+                        <ButtonGroup size="sm">
+                            {JSFuncParamsButtons.map((item, index) => {
+                                return (
+                                    <ButtonGroup className="jsfuncparambuttons" size="sm" key={index}>
+                                        <Button className={item.cName} href={item.url}>
+                                            {item.title}
+                                        </Button>
+                                    </ButtonGroup>
+                                )
+                            })}
+                        </ButtonGroup>
 
                     </Card.Body>
 

@@ -6,22 +6,22 @@ export const JSFuncTypes = [
     },
     {
         title: 'W/ Identifier',
-        url: 'javascript/functions/identifier',
+        url: '/javascript/functions/identifier',
         cName: 'jsfuncbuttons'
     },
     {
         title: '=> Notation',
-        url: 'javascript/functions/arrow',
+        url: 'functions/arrow',
         cName: 'jsfuncbuttons'
     },
     {
         title: '=> Notation / Multi-Line Block',
-        url: 'javascript/functions/multiline',
+        url: 'functions/multiline',
         cName: 'jsfuncbuttons'
     },
     {
         title: 'W/ Function Declaration',
-        url: 'javascript/functions/funcdeclaration',
+        url: 'functions/funcdeclaration',
         cName: 'jsfuncbuttons'
     },
 ]

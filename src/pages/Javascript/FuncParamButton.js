@@ -1,27 +1,27 @@
 export const JSFuncParamsButtons = [
     {
-        title: 'Back To JS Functions',
+        title: 'BACK To JS Functions',
         url: '/javascript/functions/',
-        cName: 'jsfuncbuttons'
+        cName: 'jsfuncparambuttons'
     },
     {
         title: 'W/ Identifier',
-        url: 'javascript/functions/identifier',
-        cName: 'jsfuncbuttons'
+        url: 'identifier',
+        cName: 'jsfuncparambuttons'
     },
     {
         title: '=> Notation',
-        url: 'javascript/functions/arrow',
-        cName: 'jsfuncbuttons'
+        url: 'arrow',
+        cName: 'jsfuncparambuttons'
     },
     {
         title: '=> Notation / Multi-Line Block',
-        url: 'javascript/functions/multiline',
-        cName: 'jsfuncbuttons'
+        url: 'multiline',
+        cName: 'jsfuncparambuttons'
     },
     {
         title: 'W/ Function Declaration',
-        url: 'javascript/functions/funcdeclaration',
-        cName: 'jsfuncbuttons'
+        url: 'funcdeclaration',
+        cName: 'jsfuncparambuttons'
     },
 ]

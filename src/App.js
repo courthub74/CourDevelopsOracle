@@ -18,6 +18,8 @@ import { WebScraping } from './pages/Python/WebScraping';
 import { SendingEmail } from './pages/Python/SendingEmail';
 import { JSFunctions } from './pages/Javascript/JSFunctions';
 import { JSFuncParam } from './pages/Javascript/JSFuncParam';
+import { JSWithIdentifier } from './pages/Javascript/JSWithIdentifier';
+import { JSArrowNotationfunc } from './pages/Javascript/JSArrowNotation';
 
 
 function App() {
@@ -26,7 +28,11 @@ function App() {
       <Router>
         <Sidebar/>
           <Switch>
+
+            {/* HOME */}
             <Route path='/pages/home' exact component={Home} />
+
+            {/* PYTHON */}
             <Route path='/python' exact component={Python} />
             <Route path='/python/functions' exact component={PYFunctions} />
             <Route path='/python/for' exact component={ForLoop} />
@@ -39,9 +45,15 @@ function App() {
             <Route path='/python/regex' exact component={Regex} />
             <Route path='/python/webscraping' exact component={WebScraping} />
             <Route path='/python/autoemail' exact component={SendingEmail} />
+
+            {/* JAVASCRIPT */}
             <Route path='/javascript' exact component={Javascript} />
             <Route path='/javascript/functions' exact component={JSFunctions} />
             <Route path='/javascript/functions/params' exact component={JSFuncParam} />
+            <Route path='/javascript/functions/identifier' exact component={JSWithIdentifier} />
+            <Route path='/javascript/functions/arrow' exact component={JSArrowNotationfunc} />
+
+
             <Route path='/pages/projects' exact component={Projects} />
           </Switch>
       </Router>
