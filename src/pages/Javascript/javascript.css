@@ -44,7 +44,16 @@ img {
     height: "100vh"
   }
 
-  .smallbuttonspy{
+  .javascript,
+  .jsfunctions {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+
+  .jsfuncbuttons  {
+    color: whitesmoke;
     background-color: black;
-    font-size: 5px;
   }

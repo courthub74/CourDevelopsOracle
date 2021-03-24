@@ -16,6 +16,8 @@ import { TryExcept } from './pages/Python/TryExcept';
 import { Regex } from './pages/Python/Regex';
 import { WebScraping } from './pages/Python/WebScraping';
 import { SendingEmail } from './pages/Python/SendingEmail';
+import { JSFunctions } from './pages/Javascript/JSFunctions';
+import { JSFuncParam } from './pages/Javascript/JSFuncParam';
 
 
 function App() {
@@ -24,7 +26,7 @@ function App() {
       <Router>
         <Sidebar/>
           <Switch>
-            <Route path='/pages/Home' exact component={Home} />
+            <Route path='/pages/home' exact component={Home} />
             <Route path='/python' exact component={Python} />
             <Route path='/python/functions' exact component={PYFunctions} />
             <Route path='/python/for' exact component={ForLoop} />
@@ -38,6 +40,8 @@ function App() {
             <Route path='/python/webscraping' exact component={WebScraping} />
             <Route path='/python/autoemail' exact component={SendingEmail} />
             <Route path='/javascript' exact component={Javascript} />
+            <Route path='/javascript/functions' exact component={JSFunctions} />
+            <Route path='/javascript/functions/params' exact component={JSFuncParam} />
             <Route path='/pages/projects' exact component={Projects} />
           </Switch>
       </Router>

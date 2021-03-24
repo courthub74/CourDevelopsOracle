@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
+import { Card, Button, ButtonGroup } from 'react-bootstrap'
 import './pages.css'
 import * as SiIcons from 'react-icons/si';
 
@@ -21,6 +21,15 @@ export const PYFunctions = () => {
                 <span>def my_function():</span><br></br>
                     <span className='tab5'>print("Hello from a function")</span>
                 </Card.Text>
+
+                <ButtonGroup size="sm">
+                        <Button className='smallbuttons'>W/ Parameters</Button>
+                        <Button className='smallbuttons'>W/ Keyword Argument</Button>
+                        <Button className='smallbuttons'>W/ Returns</Button>
+                        <Button className='smallbuttons'>Calc Age</Button>
+                        <Button className='smallbuttons'>W/ Global Variable</Button>
+                </ButtonGroup>
+
             </Card.Body>
             </Card>
         </div>   
