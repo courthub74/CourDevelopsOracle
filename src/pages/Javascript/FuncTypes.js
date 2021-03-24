@@ -11,17 +11,17 @@ export const JSFuncTypes = [
     },
     {
         title: '=> Notation',
-        url: 'functions/arrow',
+        url: '/javascript/functions/arrow',
         cName: 'jsfuncbuttons'
     },
     {
         title: '=> Notation / Multi-Line Block',
-        url: 'functions/multiline',
+        url: '/javascript/functions/multiline',
         cName: 'jsfuncbuttons'
     },
     {
         title: 'W/ Function Declaration',
-        url: 'functions/funcdeclaration',
+        url: '/javascript/functions/funcdeclaration',
         cName: 'jsfuncbuttons'
     },
 ]
