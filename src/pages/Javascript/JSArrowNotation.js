@@ -21,7 +21,7 @@ export const JSArrowNotationfunc = () => {
                             <span>{'}'}</span> <br></br>
                             <span>console.log(calculate_age(2020,1976))</span> <br></br>
                             <br></br>
-                            <span className='notes'>// Prints: 44</span> <br></br>
+                            <span className='notes bold'>// Prints: 44</span> <br></br>
                         </Card.Text>
 
                         <ButtonGroup size="sm">

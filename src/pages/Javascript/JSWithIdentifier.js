@@ -38,7 +38,8 @@ export const JSWithIdentifier = () => {
                             })}
                         </ButtonGroup>
 
-                    </Card.Body>
+                </Card.Body>
+                
             </Card>
             
         </div>

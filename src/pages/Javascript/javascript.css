@@ -47,7 +47,9 @@ img {
   .javascript,
   .jsfunctions,
   .jsidentifier,
-  .jsarrownotation {
+  .jsarrownotation,
+  .jsarrowmulti,
+  .jsfuncdec {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -55,10 +57,16 @@ img {
     font-size: 5rem;
   }
 
-  .jsfuncbuttons,
-  .jsfuncparambuttons,
-  .jsidbuttons,
-  .jsarrowbuttons  {
+.jsfuncbuttons,
+.jsfuncparambuttons,
+.jsidbuttons,
+.jsarrowbuttons,
+.jsfuncdecbuttons {
     color: whitesmoke;
     background-color: black;
-  }
+}
+
+.blueberry {
+  color: black;
+  background-color: black !important;
+}

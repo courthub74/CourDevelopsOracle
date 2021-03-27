@@ -20,6 +20,8 @@ import { JSFunctions } from './pages/Javascript/JSFunctions';
 import { JSFuncParam } from './pages/Javascript/JSFuncParam';
 import { JSWithIdentifier } from './pages/Javascript/JSWithIdentifier';
 import { JSArrowNotationfunc } from './pages/Javascript/JSArrowNotation';
+import { JSFuncNotationMultiLine } from './pages/Javascript/JSFuncNotationMultiLine';
+import { JSFuncDeclaration } from './pages/Javascript/JSFuncDeclaration';
 
 
 function App() {
@@ -52,6 +54,8 @@ function App() {
             <Route path='/javascript/functions/params' exact component={JSFuncParam} />
             <Route path='/javascript/functions/identifier' exact component={JSWithIdentifier} />
             <Route path='/javascript/functions/arrow' exact component={JSArrowNotationfunc} />
+            <Route path='/javascript/functions/multiline' exact component={JSFuncNotationMultiLine} />
+            <Route path='/javascript/functions/funcdeclaration' exact component={JSFuncDeclaration} />
 
 
             <Route path='/pages/projects' exact component={Projects} />

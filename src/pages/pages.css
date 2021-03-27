@@ -26,6 +26,14 @@ img {
     color: crimson;
 }
 
+.notes {
+    color: blue;
+}
+
+.accordian {
+    color: black;
+}
+
 card {
     height: "100vh"
   }
