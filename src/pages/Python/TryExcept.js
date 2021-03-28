@@ -14,7 +14,7 @@ export const TryExcept = () => {
                     <Card.Text className="texty">
                         <span className="notes"># Try / Except</span> <br></br>
                         <br></br>
-                        <span>def divides(a,b):</span> <br></br>
+                        <span className='bold'>def divides(a,b):</span> <br></br>
                         <span className='tab5 bold'>try:</span> <br></br>
                         <span className='tab10 bold'>def divides(a,b):</span> <br></br>
                         <span className='tab10 bold'>print (result)</span> <br></br>
@@ -23,13 +23,13 @@ export const TryExcept = () => {
                         <br></br>
                         <span className="notes"># Another Try / Except</span> <br></br>
                         <br></br>
-                        <span>def raises_value_error():</span> <br></br>
+                        <span className='bold'>def raises_value_error():</span> <br></br>
                         <span className='tab5 bold'>try:</span> <br></br>
                         <span className='tab10 bold'>raise ValueError</span> <br></br>
                         <span className='tab5 bold'>except:</span> <br></br>
                         <span className='tab5 bold'>print ("You raised a ValueError!")</span> <br></br>
                         <br></br>
-                        <span>raises_value_error()</span> <br></br>
+                        <span className='bold'>raises_value_error()</span> <br></br>
                     </Card.Text>
 
                 </Card.Body>
