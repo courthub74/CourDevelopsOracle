@@ -61,7 +61,8 @@ img {
   .jsfuncdec,
   .jsbasics,
   .jsfizzbuzz,
-  .jscolorcode {
+  .jscolorcode,
+  .jsdisablefields {
     display: flex;
     height: 90vh;
     align-items: center;
