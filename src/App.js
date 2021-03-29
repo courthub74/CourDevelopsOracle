@@ -24,6 +24,7 @@ import { JSFuncNotationMultiLine } from './pages/Javascript/JSFuncNotationMultiL
 import { JSFuncDeclaration } from './pages/Javascript/JSFuncDeclaration';
 import { JSBasics } from './pages/Javascript/JSBasics';
 import { JSFizzbuzz } from './pages/Javascript/JSFizzbuzz';
+import { ColorCodeRadio } from './pages/Javascript/ColorCodeRadio';
 
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
             <Route path='/javascript/functions/funcdeclaration' exact component={JSFuncDeclaration} />
             <Route path='/javascript/basics' exact component={JSBasics} />
             <Route path='/javascript/fizzbuzz' exact component={JSFizzbuzz} />
+            <Route path='/javascript/colorcode' exact component={ColorCodeRadio} />
 
 
             <Route path='/pages/projects' exact component={Projects} />

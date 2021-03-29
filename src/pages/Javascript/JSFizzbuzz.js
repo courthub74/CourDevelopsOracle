@@ -13,7 +13,9 @@ export const JSFizzbuzz = () => {
 
                 <Card.Body>
 
-                    <Card.Text className='texty' style={{fontSize:'12px'}}>
+                    <Card.Text className='texty2'>
+
+                        <p>One approach from the infamous interview question:</p>
 
                             <span className='bold'>var i = 0;</span> <br></br>
                             <span className='bold'>while (i {'<= '}99){'{'}</span> <br></br>

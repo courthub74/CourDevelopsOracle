@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, Button, Accordion } from 'react-bootstrap'
 import * as SiIcons from 'react-icons/si';
 import './javascript.css';
-import { JSFuncTypes } from './FuncTypes';
+// import { JSFuncTypes } from './FuncTypes';
 
 export const JSFunctions = () => {
     return (
@@ -13,7 +13,7 @@ export const JSFunctions = () => {
                 <Card.Header><h1>Functions <SiIcons.SiJavascript/></h1></Card.Header>
 
                 <Card.Body>
-                    <Card.Text className='texty'>
+                    <Card.Text className='texty2'>
                         A function is a block of code which only runs when it is called.<br></br>
 
                         You can pass data, known as parameters, into a function.<br></br>
@@ -21,7 +21,7 @@ export const JSFunctions = () => {
                         A function can return data as a result.
                     </Card.Text >
                     
-                    <Card.Text className="texty bold">
+                    <Card.Text className="texty2 bold">
                         <span>function Hello() {'{'}</span><br></br>
                         <span className='tab5'>console.log("Bonjour")</span><br></br>
                         <span>{'}'}</span>
