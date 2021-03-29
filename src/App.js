@@ -23,6 +23,7 @@ import { JSArrowNotationfunc } from './pages/Javascript/JSArrowNotation';
 import { JSFuncNotationMultiLine } from './pages/Javascript/JSFuncNotationMultiLine';
 import { JSFuncDeclaration } from './pages/Javascript/JSFuncDeclaration';
 import { JSBasics } from './pages/Javascript/JSBasics';
+import { JSFizzbuzz } from './pages/Javascript/JSFizzbuzz';
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
             <Route path='/javascript/functions/multiline' exact component={JSFuncNotationMultiLine} />
             <Route path='/javascript/functions/funcdeclaration' exact component={JSFuncDeclaration} />
             <Route path='/javascript/basics' exact component={JSBasics} />
+            <Route path='/javascript/fizzbuzz' exact component={JSFizzbuzz} />
 
 
             <Route path='/pages/projects' exact component={Projects} />

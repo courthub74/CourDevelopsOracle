@@ -263,6 +263,10 @@ export const SidebarData = [
                 path: '/react/classchange',
             },
             {
+                title: 'Button Mapping',
+                path: '/react/buttonmapping',
+            },
+            {
                 title: 'Authentication',
                 path: '/react/jsauth',
             },

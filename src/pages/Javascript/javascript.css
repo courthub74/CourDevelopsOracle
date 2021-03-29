@@ -36,7 +36,7 @@ img {
 
   .notes {
     font-style: initial;
-    font-size: 10px;
+    font-size: 12px;
     color: blue;
 }
 
@@ -50,7 +50,8 @@ img {
   .jsarrownotation,
   .jsarrowmulti,
   .jsfuncdec,
-  .jsbasics {
+  .jsbasics,
+  .jsfizzbuzz {
     display: flex;
     height: 90vh;
     align-items: center;
