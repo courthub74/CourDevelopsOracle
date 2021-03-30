@@ -26,7 +26,7 @@ export const DisableFieldsCheckbox = () => {
                             <Card>
                                 <Card.Header>
                                     <Accordion.Toggle as={Button} variant="link" eventKey="0" style={{fontSize:'15px'}}>
-                                        <span className='accordian'>Click Here for Code:</span>
+                                        <span className='accordian'>Click Here for vanilla JS code:</span>
                                     </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="0" style={{fontSize:'12px'}}>

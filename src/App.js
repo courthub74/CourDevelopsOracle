@@ -26,6 +26,8 @@ import { JSBasics } from './pages/Javascript/JSBasics';
 import { JSFizzbuzz } from './pages/Javascript/JSFizzbuzz';
 import { ColorCodeRadio } from './pages/Javascript/ColorCodeRadio';
 import { DisableFieldsCheckbox } from './pages/Javascript/DisableFieldsCheckbox';
+import { Scopes } from './pages/Javascript/Scopes';
+import { JSClasses } from './pages/Javascript/JSClasses';
 
 
 function App() {
@@ -64,6 +66,8 @@ function App() {
             <Route path='/javascript/fizzbuzz' exact component={JSFizzbuzz} />
             <Route path='/javascript/colorcode' exact component={ColorCodeRadio} />
             <Route path='/javascript/dissablefields' exact component={DisableFieldsCheckbox} />
+            <Route path='/javascript/scopes' exact component={Scopes} />
+            <Route path='/javascript/classes' exact component={JSClasses} />
 
 
 
