@@ -111,16 +111,16 @@ export const Scopes = () => {
                                                 <span className='notes tab5'>inside the logSkyColor() function</span> <br></br>
                                                 <span className='notes tab5'>After the if statement, we define</span> <br></br>
                                                 <span className='notes tab5'>a new code block with the {'{}'} braces.</span> <br></br>                                            
-                                                <span className='notes tab5'>Here we assign a new value to the</span> <br></br>                                            
-                                                <span className='notes tab5'>variable color if the if statement is truthy</span> <br></br>                                            
-                                                <span className='notes tab5'>Within the if block, the color variable holds</span> <br></br>                                            
-                                                <span className='notes tab5'> the value 'pink', though outside the if block,</span> <br></br>                                            
-                                                <span className='notes tab5'> in the function body, the color variable holds</span> <br></br>                                            
-                                                <span className='notes tab5'>the value 'green'. While we use block scope</span> <br></br>                                            
-                                                <span className='notes tab5'>we still pollute our namespace by reusing</span> <br></br>                                            
-                                                <span className='notes tab5'>the same variable name twice.</span> <br></br>                                            
-                                                <span className='notes tab5'>A better practice would be to rename</span> <br></br>                                            
-                                                <span className='notes tab5'> the variable inside the block</span> <br></br>                                            
+                                                <span className='notes tab5'>Here we assign a new value to the variable </span> <br></br>                                            
+                                                <span className='notes tab5'>color if the if statement is truthy</span> <br></br>                                            
+                                                <span className='notes tab5'>Within the if block, the color variable</span> <br></br>                                            
+                                                <span className='notes tab5'>holdsthe value 'pink', though outside the</span> <br></br>                                            
+                                                <span className='notes tab5'>if block, in the function body, the color</span> <br></br>                                            
+                                                <span className='notes tab5'>variable holds the value 'green'. While we</span> <br></br>                                            
+                                                <span className='notes tab5'>use block scope we still pollute our namespace</span> <br></br>                                            
+                                                <span className='notes tab5'>by reusing the same variable name twice. A </span> <br></br>                                            
+                                                <span className='notes tab5'>better practice would be to rename</span> <br></br>                                            
+                                                <span className='notes tab5'>the variable inside the block</span> <br></br>                                            
                                             </Card.Body>
                                         </Accordion.Collapse>
                                     </Card>
@@ -144,18 +144,24 @@ export const Scopes = () => {
                                                 <span className='notes tab5'>that some variables are accessible/inaccessible </span> <br></br>                                            
                                                 <span className='notes tab5'>from other parts of the program.</span> <br></br> 
                                                 <br></br>                                           
-                                                <span className='notes tab5'>BLOCKS are statements that exist within curly braces {'{}'}</span> <br></br>   
+                                                <span className='notes tab5'>BLOCKS are statements that exist within</span> <br></br>  
+                                                <span className='notes tab10'>curly braces {'{}'}</span> <br></br>   
                                                 <br></br>                                         
-                                                <span className='notes tab5'>GLOBAL SCOPE refers to the context within which</span> <br></br>
+                                                <span className='notes tab5'>GLOBAL SCOPE refers to the context</span> <br></br> 
+                                                <span className='notes tab10'>within which</span> <br></br>
                                                 <br></br>                                             
-                                                <span className='notes tab5'>VARIABLES are accessible to every part of the program</span> <br></br>
+                                                <span className='notes tab5'>VARIABLES are accessible to every</span> <br></br> 
+                                                <span className='notes tab10'>part of the program</span> <br></br>
                                                 <br></br>                                             
-                                                <span className='notes tab5'>GLOBAL VARIABLES are variables that exist within global scope</span> <br></br> 
+                                                <span className='notes tab5'>GLOBAL VARIABLES are variables that</span> <br></br> 
+                                                <span className='notes tab10'>exist within global scope</span> <br></br> 
                                                 <br></br>                                            
-                                                <span className='notes tab5'>BLOCK SCOPE refers to the context within which variables</span> <br></br>                                            
-                                                <span className='notes tab5'>that are accessible only within the block they are defined</span> <br></br>
+                                                <span className='notes tab5'>BLOCK SCOPE refers to the context</span> <br></br> 
+                                                <span className='notes tab10'>within which variables that are accessible</span> <br></br>                                            
+                                                <span className='notes tab10'>only within the block they are defined</span> <br></br>
                                                 <br></br>                                             
-                                                <span className='notes tab5'>LOCAL VARIABLES are variables that exist within block scope</span> <br></br>
+                                                <span className='notes tab5'>LOCAL VARIABLES are variables that exist</span><br></br> 
+                                                <span className='notes tab10'>within block scope</span><br></br>
                                                 <br></br>                                             
                                                 <span className='notes tab5'>GLOBAL NAMESPACE is the space in our code that</span> <br></br>                                            
                                                 <span className='notes tab5'>globally scoped information</span> <br></br> 
