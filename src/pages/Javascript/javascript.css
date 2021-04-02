@@ -78,7 +78,8 @@ img {
   .jsfizzbuzz,
   .jscolorcode,
   .jsdisablefields,
-  .jsscopes {
+  .jsscopes,
+  .jsarrays {
     display: flex;
     height: 90vh;
     align-items: center;

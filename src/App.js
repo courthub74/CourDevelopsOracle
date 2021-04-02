@@ -28,6 +28,7 @@ import { ColorCodeRadio } from './pages/Javascript/ColorCodeRadio';
 import { DisableFieldsCheckbox } from './pages/Javascript/DisableFieldsCheckbox';
 import { Scopes } from './pages/Javascript/Scopes';
 import { JSClasses } from './pages/Javascript/JSClasses';
+import { JSArrays } from './pages/Javascript/JSArrays';
 
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
             <Route path='/javascript/dissablefields' exact component={DisableFieldsCheckbox} />
             <Route path='/javascript/scopes' exact component={Scopes} />
             <Route path='/javascript/classes' exact component={JSClasses} />
+            <Route path='/javascript/arrays' exact component={JSArrays} />
 
 
 
