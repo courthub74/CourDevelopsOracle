@@ -22,6 +22,9 @@
 .texty2 {
     font-size: 15px;
 }
+.texty3 {
+  font-size: 10px;
+}
 
 .smtexty {
   font-size: x-small;
@@ -79,7 +82,9 @@ img {
   .jscolorcode,
   .jsdisablefields,
   .jsscopes,
-  .jsarrays {
+  .jsarrays,
+  .jselementsdissapear,
+  .alleniverson {
     display: flex;
     height: 90vh;
     align-items: center;

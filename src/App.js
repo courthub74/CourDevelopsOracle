@@ -29,6 +29,8 @@ import { DisableFieldsCheckbox } from './pages/Javascript/DisableFieldsCheckbox'
 import { Scopes } from './pages/Javascript/Scopes';
 import { JSClasses } from './pages/Javascript/JSClasses';
 import { JSArrays } from './pages/Javascript/JSArrays';
+import { MakeElementsDissapear } from './pages/Javascript/MakeElementsDissapear';
+import { AllenIverson } from './pages/Javascript/AllenIverson';
 
 
 function App() {
@@ -70,6 +72,8 @@ function App() {
             <Route path='/javascript/scopes' exact component={Scopes} />
             <Route path='/javascript/classes' exact component={JSClasses} />
             <Route path='/javascript/arrays' exact component={JSArrays} />
+            <Route path='/javascript/dissapear' exact component={MakeElementsDissapear} />
+            <Route path='/javascript/answer' exact component={AllenIverson} />
 
 
 
