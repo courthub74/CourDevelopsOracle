@@ -2,6 +2,7 @@ import './App.css';
 import { Sidebar } from './components/Sidebar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Home } from './pages/Home';
+//PYTHON
 import { Python } from './pages/Python';
 import { Javascript } from './pages/Javascript';
 import { Projects } from './pages/Projects';
@@ -16,6 +17,7 @@ import { TryExcept } from './pages/Python/TryExcept';
 import { Regex } from './pages/Python/Regex';
 import { WebScraping } from './pages/Python/WebScraping';
 import { SendingEmail } from './pages/Python/SendingEmail';
+//JAVASCRIPT
 import { JSFunctions } from './pages/Javascript/JSFunctions';
 import { JSFuncParam } from './pages/Javascript/JSFuncParam';
 import { JSWithIdentifier } from './pages/Javascript/JSWithIdentifier';
@@ -31,6 +33,12 @@ import { JSClasses } from './pages/Javascript/JSClasses';
 import { JSArrays } from './pages/Javascript/JSArrays';
 import { MakeElementsDissapear } from './pages/Javascript/MakeElementsDissapear';
 import { AllenIverson } from './pages/Javascript/AllenIverson';
+import { ShowHideColors } from './pages/Javascript/ShowHideColors';
+//HTML
+import { HTML } from './pages/HTML/HTML';
+import { HTMLforms } from './pages/HTML/HTMLforms';
+import { HTMLsubmitbutton } from './pages/HTML/HTMLsubmitbutton';
+import { HTMLdropdown } from './pages/HTML/HTMLdropdown';
 
 
 function App() {
@@ -74,10 +82,18 @@ function App() {
             <Route path='/javascript/arrays' exact component={JSArrays} />
             <Route path='/javascript/dissapear' exact component={MakeElementsDissapear} />
             <Route path='/javascript/answer' exact component={AllenIverson} />
+            <Route path='/javascript/showhide' exact component={ShowHideColors} />
+
+            {/* HTML */}
+            <Route path='/html' exact component={HTML} />
+            <Route path='/html/forms' exact component={HTMLforms} />
+            <Route path='/html/submit' exact component={HTMLsubmitbutton} />
+            <Route path='/html/drop' exact component={HTMLdropdown} />
 
 
-
+            {/* TODOs */}
             <Route path='/pages/projects' exact component={Projects} />
+
           </Switch>
       </Router>
     </div>

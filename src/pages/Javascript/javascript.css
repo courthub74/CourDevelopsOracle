@@ -84,7 +84,8 @@ img {
   .jsscopes,
   .jsarrays,
   .jselementsdissapear,
-  .alleniverson {
+  .alleniverson,
+  .jsshowhidecolors {
     display: flex;
     height: 90vh;
     align-items: center;
