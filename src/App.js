@@ -39,6 +39,10 @@ import { HTML } from './pages/HTML/HTML';
 import { HTMLforms } from './pages/HTML/HTMLforms';
 import { HTMLsubmitbutton } from './pages/HTML/HTMLsubmitbutton';
 import { HTMLdropdown } from './pages/HTML/HTMLdropdown';
+import { HTMLnumberbox } from './pages/HTML/HTMLnumberbox';
+import { HTMLslider } from './pages/HTML/HTMLslider';
+import { HTMLtextarea } from './pages/HTML/HTMLtextarea';
+
 
 
 function App() {
@@ -89,6 +93,9 @@ function App() {
             <Route path='/html/forms' exact component={HTMLforms} />
             <Route path='/html/submit' exact component={HTMLsubmitbutton} />
             <Route path='/html/drop' exact component={HTMLdropdown} />
+            <Route path='/html/numbox' exact component={HTMLnumberbox} />
+            <Route path='/html/slider' exact component={HTMLslider} />
+            <Route path='/html/textarea' exact component={HTMLtextarea} />
 
 
             {/* TODOs */}

@@ -13,6 +13,9 @@
 .tab15 {
     margin-left: 40px;
 }
+.tab20 {
+    margin-left: 60px;
+}
 
 .bold {
     font-weight: bold;
@@ -56,7 +59,10 @@ img {
 .htmlforms,
 .htmlbasic,
 .htmlsubmitbutton,
-.htmldropdown {
+.htmldropdown,
+.htmlnumberbox,
+.htmlslider,
+.htmltextarea {
     display: flex;
     height: 90vh;
     align-items: center;
