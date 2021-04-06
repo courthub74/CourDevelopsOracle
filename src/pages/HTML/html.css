@@ -62,7 +62,8 @@ img {
 .htmldropdown,
 .htmlnumberbox,
 .htmlslider,
-.htmltextarea {
+.htmltextarea,
+.htmltables {
     display: flex;
     height: 90vh;
     align-items: center;

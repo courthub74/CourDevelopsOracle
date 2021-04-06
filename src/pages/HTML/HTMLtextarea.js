@@ -9,13 +9,13 @@ export const HTMLtextarea = () => {
 
             <Card>
 
-            <Card.Header><h1>HTML Slider <AiIcons.AiFillHtml5 /></h1></Card.Header>
+            <Card.Header><h1>HTML Text Area <AiIcons.AiFillHtml5 /></h1></Card.Header>
 
                 <Card.Body>
 
                     <Card.Text className='texty2'>
 
-                        <p>BELOW makes a value slider:</p>
+                        <p>BELOW makes a text area:</p>
                             <span className='bold'> {'<form>'} </span> <br></br>
                             <span className='bold tab5'> {'<label for="blog">New Blog Post: </label>'} </span> <br></br>
                             <span className='bold tab5'> {'<br>'} </span> <br></br>

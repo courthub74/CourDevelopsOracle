@@ -42,6 +42,7 @@ import { HTMLdropdown } from './pages/HTML/HTMLdropdown';
 import { HTMLnumberbox } from './pages/HTML/HTMLnumberbox';
 import { HTMLslider } from './pages/HTML/HTMLslider';
 import { HTMLtextarea } from './pages/HTML/HTMLtextarea';
+import { HTMLtables } from './pages/HTML/HTMLtables';
 
 
 
@@ -96,6 +97,7 @@ function App() {
             <Route path='/html/numbox' exact component={HTMLnumberbox} />
             <Route path='/html/slider' exact component={HTMLslider} />
             <Route path='/html/textarea' exact component={HTMLtextarea} />
+            <Route path='/html/tables' exact component={HTMLtables} />
 
 
             {/* TODOs */}
