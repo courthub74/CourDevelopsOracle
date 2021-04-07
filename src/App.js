@@ -43,6 +43,7 @@ import { HTMLnumberbox } from './pages/HTML/HTMLnumberbox';
 import { HTMLslider } from './pages/HTML/HTMLslider';
 import { HTMLtextarea } from './pages/HTML/HTMLtextarea';
 import { HTMLtables } from './pages/HTML/HTMLtables';
+import { HTMLradiodial } from './pages/HTML/HTMLradiodial';
 
 
 
@@ -98,6 +99,7 @@ function App() {
             <Route path='/html/slider' exact component={HTMLslider} />
             <Route path='/html/textarea' exact component={HTMLtextarea} />
             <Route path='/html/tables' exact component={HTMLtables} />
+            <Route path='/html/radio' exact component={HTMLradiodial} />
 
 
             {/* TODOs */}

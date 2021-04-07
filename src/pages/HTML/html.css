@@ -63,7 +63,8 @@ img {
 .htmlnumberbox,
 .htmlslider,
 .htmltextarea,
-.htmltables {
+.htmltables,
+.htmlradiodial {
     display: flex;
     height: 90vh;
     align-items: center;

@@ -16,9 +16,9 @@ export const HTMLsubmitbutton = () => {
                     <Card.Text className='texty2'>
 
                         <p>BELOW makes a submit button:</p>
-                            <span className='bold tab5'> {'<button type="button">Click Me!</button>'} </span> <br></br>
+                            <span className='bold tab5'> {'<button type="button">Submit</button>'} </span> <br></br>
                             <br></br>
-                            <span className='tab15'><button type="button">Click Me!</button></span>
+                            <span className='tab15'><button type="button">Submit</button></span>
                     </Card.Text>
 
                 </Card.Body>
