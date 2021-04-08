@@ -13,7 +13,7 @@ export const HTMLtables = () => {
 
                 <Card.Body>
 
-                    <Card.Text className='texty2'>
+                    <Card.Text className='texty'>
 
                         <p>BELOW makes an HTML table:</p>
                             <span className='bold'> {'<table>'} </span> <br></br>

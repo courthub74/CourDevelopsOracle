@@ -44,6 +44,8 @@ import { HTMLslider } from './pages/HTML/HTMLslider';
 import { HTMLtextarea } from './pages/HTML/HTMLtextarea';
 import { HTMLtables } from './pages/HTML/HTMLtables';
 import { HTMLradiodial } from './pages/HTML/HTMLradiodial';
+import { HTMLauthentication } from './pages/HTML/HTMLauthentication';
+import { HTMLDaviesBurgerMenu } from './pages/HTML/HTMLDaviesBurgerMenu';
 
 
 
@@ -89,6 +91,7 @@ function App() {
             <Route path='/javascript/dissapear' exact component={MakeElementsDissapear} />
             <Route path='/javascript/answer' exact component={AllenIverson} />
             <Route path='/javascript/showhide' exact component={ShowHideColors} />
+            
 
             {/* HTML */}
             <Route path='/html' exact component={HTML} />
@@ -100,6 +103,8 @@ function App() {
             <Route path='/html/textarea' exact component={HTMLtextarea} />
             <Route path='/html/tables' exact component={HTMLtables} />
             <Route path='/html/radio' exact component={HTMLradiodial} />
+            <Route path='/html/authenticate' exact component={HTMLauthentication} />
+            <Route path='/html/daves' exact component={HTMLDaviesBurgerMenu} />
 
 
             {/* TODOs */}
