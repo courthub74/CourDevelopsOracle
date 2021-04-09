@@ -46,6 +46,8 @@ import { HTMLtables } from './pages/HTML/HTMLtables';
 import { HTMLradiodial } from './pages/HTML/HTMLradiodial';
 import { HTMLauthentication } from './pages/HTML/HTMLauthentication';
 import { HTMLDaviesBurgerMenu } from './pages/HTML/HTMLDaviesBurgerMenu';
+//DJANGO
+import { DJsetup } from './pages/Django/DJsetup';
 
 
 
@@ -105,6 +107,9 @@ function App() {
             <Route path='/html/radio' exact component={HTMLradiodial} />
             <Route path='/html/authenticate' exact component={HTMLauthentication} />
             <Route path='/html/daves' exact component={HTMLDaviesBurgerMenu} />
+
+            {/* Django */}
+            <Route path='/django/settingup' exact component={DJsetup}/>
 
 
             {/* TODOs */}

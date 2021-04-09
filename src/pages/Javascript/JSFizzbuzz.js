@@ -21,7 +21,7 @@ export const JSFizzbuzz = () => {
                             <span className='bold'>while (i {'<= '}99){'{'}</span> <br></br>
                             <span className='bold'>i++;</span> <br></br>
                             <br></br>
-                            <span className='notes'>//document.write(i + ". {'< br/>'}");</span> <br></br>
+                            <span className='notes'>{'//document.write(i + ". {"< br/>"}");'}</span> <br></br>
                             <br></br>
                             <span className='bold'>if (i % 3 == 0 {'&&'} i % 5 == 0){'{'}</span> <br></br>
                             <span className='bold tab5'>document.write(i + ". FizzBuzz!{'< br/>'}");</span> <br></br>
@@ -33,7 +33,7 @@ export const JSFizzbuzz = () => {
                             <span className='bold tab5'>document.write(i + ". {'< br/>'}");</span> <br></br>
                             <span className='bold'>{'}'}</span><br></br>
                             <br></br>
-                            <span className='notes'>//NOW try it with a FOR Loop</span> <br></br>
+                            <span className='notes'>{'//NOW try it with a FOR Loop'}</span> <br></br>
                             <span className='bold'>{'}'}</span> <br></br>
                             <span className='bold'>{'});'}</span> <br></br>
 

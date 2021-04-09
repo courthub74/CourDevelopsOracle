@@ -65,15 +65,15 @@ export const MakeElementsDissapear = () => {
 
                                         <span className='bold'>{'< script type="text/javascript" >'}</span> <br></br>
                                         <span className='bold'>const allElements = document.querySelectorAll(".go");</span> <br></br>
-                                        <span className='blue'>// make a constant variable called 'allElements' from each desired list item</span><br></br>
+                                        <span className='blue'>{'// make a constant variable called "allElements" from each desired list item'}</span><br></br>
                                         <span className='blue'>that query selects from the class 'go'. The list items</span><br></br>
                                         <br></br>
                                         <span className='bold'>allElements.forEach(element ={'>'} {'{'}</span> <br></br>
-                                        <span className='blue'>// then declare that for each element of the </span><br></br>
+                                        <span className='blue'>{'// then declare that for each element of the'}</span><br></br>
                                         <span className='blue'>constant variable do BELOW</span><br></br>
                                         <br></br>
                                         <span className='bold'>if (element.innerHTML == "None") {'{'} </span> <br></br>
-                                        <span className='blue'>// if the element's innerHTML is "None"</span> <br></br>
+                                        <span className='blue'>{'// if the elements innerHTML is "None"'}</span> <br></br>
                                         <br></br>
                                         <span className='bold'>element.classList.add('hidden');</span><br></br>
                                         <br></br>

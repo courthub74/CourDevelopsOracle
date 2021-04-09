@@ -42,7 +42,7 @@ export const AllenIverson = () => {
                                     {'< script >'}<br></br>
                                     hockey = "Hockey"<br></br>
                                     document.getElementById("hockey").innerHTML = hockey;<br></br>
-                                    //Below is a FOR Loop<br></br>
+                                    {'//Below is a FOR Loop'}<br></br>
                                     for (i = 0; i {'<'} 10; i++){'{'}<br></br>
                                     document.write(i + ".hat trick {'< br/>'}");<br></br>
                                     {'}'}<br></br>
@@ -51,11 +51,11 @@ export const AllenIverson = () => {
                                     {'< script >'}<br></br>
                                     football = "Football"<br></br>
                                     document.getElementById("football").innerHTML = football;<br></br>
-                                    //Below is a WHILE Loop<br></br>
+                                    {'//Below is a WHILE Loop'}<br></br>
                                     var i = 0;<br></br>
                                     while (i {'<'} 10){'{'}<br></br>
                                     document.write(i + ".screen pass {'< br/>'}");<br></br>
-                                    i++; //if you don't have the counter (i++) program will crash<br></br>
+                                    i++; {'//if you dont have the counter (i++) program will crash'}<br></br>
                                     {'}'}<br></br>
                                     {'< /script >'}<br></br>
 

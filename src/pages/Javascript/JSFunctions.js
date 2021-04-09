@@ -36,7 +36,7 @@ export const JSFunctions = () => {
                             <Card>
                                 <Card.Header>
                                 <Accordion.Toggle as={Button} variant="link" eventKey="0" style={{fontSize:'15px'}}>
-                                    <span className='accordian'>// W.Parameters</span>
+                                    <span className='accordian'>{'// W.Parameters'}</span>
                                 </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="0" style={{fontSize:'12px'}}>
@@ -49,7 +49,7 @@ export const JSFunctions = () => {
                                     <span className='bold'>{'}'}</span> <br></br>
                                     <span className='bold'>groups("Gang Starr", "Public Enemy")</span> <br></br>
                                     <br></br>
-                                    <span className='notes'>// Prints: Favorite Hip Hop group: Gang Starr</span> <br></br>
+                                    <span className='notes'>{'// Prints: Favorite Hip Hop group: Gang Starr'}</span> <br></br>
                                     <span className='notes tab5'>Another favorite is: Public Enemy</span> <br></br>
                       
                     
@@ -60,13 +60,13 @@ export const JSFunctions = () => {
                             <Card>
                                 <Card.Header>
                                 <Accordion.Toggle as={Button} variant="link" eventKey="1" style={{fontSize:'15px'}}>
-                                    <span className='accordian'>// W.Identifier</span>
+                                    <span className='accordian'>{'// W.Identifier'}</span>
                                 </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="1" style={{fontSize:'12px'}}>
                                 <Card.Body>
 
-                                    <span className='notes'>// Define a function using an</span> <br></br>
+                                    <span className='notes'>{'// Define a function using an'}</span> <br></br>
                                     <span className='notes tab5'>identifier and function expressions</span> <br></br>
                                     <br></br>
                                     <span className='bold'>const calculatearea = function(width, height) {'{'}</span> <br></br>
@@ -75,10 +75,10 @@ export const JSFunctions = () => {
                                     <span className='bold'>{'}'}</span> <br></br>
                                     <span className='bold'>console.log(calculatearea(123, 456))</span> <br></br>
                                     <br></br>
-                                    <span className='notes'>// You are using 'calculatearea' as a constant</span> <br></br>
+                                    <span className='notes'>{'// You are using "calculatearea" as a constant'}</span> <br></br>
                                     <span className='notes tab5'>for the actual function 'area'</span> <br></br>
                                     <br></br>
-                                    <span className='notes bold'>// Prints: 56088</span> <br></br>
+                                    <span className='notes bold'>{'// Prints: 56088'}</span> <br></br>
                                     
                                 </Card.Body>
                                 </Accordion.Collapse>
@@ -87,14 +87,14 @@ export const JSFunctions = () => {
                             <Card>
                                 <Card.Header>
                                 <Accordion.Toggle as={Button} variant="link" eventKey="2" style={{fontSize:'15px'}}>
-                                    <span className='accordian'>// ={'>'} Notation</span>
+                                    <span className='accordian'>{'// ={'>'} Notation'}</span>
                                 </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="2" style={{fontSize:'12px'}}>
                                 <Card.Body>
-                                    <span className='notes'>// Function using arrow notation</span> <br></br>
+                                    <span className='notes'>{'// Function using arrow notation'}</span> <br></br>
                                     <br></br>
-                                    <span className='notes'>// This is like same as ABOVE but instead </span> <br></br>
+                                    <span className='notes'>{'// This is like same as ABOVE but instead'}</span> <br></br>
                                     <span className='notes tab5'>of using 'function' you use an ={'>'}</span> <br></br>
                                     <br></br>
                                     <span className='bold'>const calculate_age = (current_year, birth_year) ={'>'}</span> <br></br>
@@ -103,7 +103,7 @@ export const JSFunctions = () => {
                                     <span className='bold'>{'}'}</span> <br></br>
                                     <span className='bold'>console.log(calculate_age(2020,1976))</span> <br></br>
                                     <br></br>
-                                    <span className='notes bold'>// Prints: 44</span> <br></br>
+                                    <span className='notes bold'>{'// Prints: 44'}</span> <br></br>
                                 </Card.Body>
                                 </Accordion.Collapse>
                             </Card>
@@ -111,7 +111,7 @@ export const JSFunctions = () => {
                             <Card>
                                 <Card.Header>
                                 <Accordion.Toggle as={Button} variant="link" eventKey="3" style={{fontSize:'15px'}}>
-                                    <span className='accordian'>// Multi-Line ={'>'} Notation </span>
+                                    <span className='accordian'>{'// Multi-Line ={'>'} Notation'}</span>
                                 </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="3" style={{fontSize:'12px'}}>
@@ -122,7 +122,7 @@ export const JSFunctions = () => {
                                     <span className='bold'>{'}'}</span> <br></br>
                                     <span className='bold'>console.log(quantity(4,4))</span> <br></br>
                                     <br></br>
-                                    <span className='notes bold'>// Prints: 8</span> <br></br>
+                                    <span className='notes bold'>{'// Prints: 8'}</span> <br></br>
                                 </Card.Body>
                                 </Accordion.Collapse>
                             </Card>
@@ -130,7 +130,7 @@ export const JSFunctions = () => {
                             <Card>
                                 <Card.Header>
                                 <Accordion.Toggle as={Button} variant="link" eventKey="4" style={{fontSize:'15px'}}>
-                                    <span className='accordian'>// Function Declaration</span>
+                                    <span className='accordian'>{'// Function Declaration'}</span>
                                 </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="4" style={{fontSize:'12px'}}>
@@ -140,7 +140,7 @@ export const JSFunctions = () => {
                                     <span className='bold'>{'}'}</span> <br></br>
                                     <span className='bold'>volumeOfCube(5);</span> <br></br>
                                     <br></br>
-                                    <span className='notes bold'>// Prints: 125</span> <br></br>
+                                    <span className='notes bold'>{'// Prints: 125'}</span> <br></br>
                                 </Card.Body>
                                 </Accordion.Collapse>
                             </Card>

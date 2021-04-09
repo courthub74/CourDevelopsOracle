@@ -34,10 +34,6 @@
     font-size: 8px;
 }
 
-img {
-    width: 100px;
-}
-
 .notes {
     font-style: initial;
     font-size: 12px;
@@ -46,6 +42,10 @@ img {
 .blue {
     color: blue;
   }
+
+.red {
+    color: red;
+}
 
 .pink {
     font-style: initial;
@@ -58,18 +58,8 @@ img {
     color: green;
   }
 
-.htmlbasic,
-.htmlforms,
-.htmlbasic,
-.htmlsubmitbutton,
-.htmldropdown,
-.htmlnumberbox,
-.htmlslider,
-.htmltextarea,
-.htmltables,
-.htmlradiodial,
-.htmlauthenticate,
-.htmldaviesmenu {
+
+.djsetup {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -79,8 +69,5 @@ img {
 
 
 .pad1 {
-    padding: 1em; 
+    padding: 1em;
 }
-
-  
-

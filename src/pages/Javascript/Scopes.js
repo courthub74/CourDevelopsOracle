@@ -35,13 +35,13 @@ export const Scopes = () => {
                                                 <br></br>
                                                 <span className='bold'>console.log(logCitySkyline())</span><br></br>
                                                 <br></br>
-                                                <span className='notes'>// ABOVE You’ll notice that the logCitySkyline()</span> <br></br>
+                                                <span className='notes'>{'// ABOVE You’ll notice that the logCitySkyline()'}</span> <br></br>
                                                 <span className='notes tab5'>function is able to access both variables 'city'</span> <br></br>
                                                 <span className='notes tab5'>and 'skyscraper' without any problems. In the next</span> <br></br>
                                                 <span className='notes tab5'>exercise we’ll consider why would it be preferable</span> <br></br>
                                                 <span className='notes tab5'>to have</span> <br></br>
                                                 <br></br>
-                                                <span className='notes bold'>//Prints:</span> <br></br>
+                                                <span className='notes bold'>{'//Prints:'}</span> <br></br>
                                                 <span className='notes tab5'>The Stars over the Empire State Building</span> <br></br>
                                                 <span className='notes tab5'>in New York City</span> <br></br>
                                             </Card.Body>
@@ -70,7 +70,7 @@ export const Scopes = () => {
                                                 <br></br>
                                                 <span className='bold'>console.log(callMyNightSky())</span><br></br>
                                                 <br></br>
-                                                <span className='notes'>// ABOVE You’ll notice that the function block</span> <br></br>
+                                                <span className='notes'>{'// ABOVE You’ll notice that the function block'}</span> <br></br>
                                                 <span className='notes tab5'>for callMyNightSky() is able to access</span> <br></br>
                                                 <span className='notes tab5'>the global variables freely since the variables</span> <br></br>
                                                 <span className='notes tab5'>are available to all lines of code in the file</span> <br></br>                                            
@@ -96,18 +96,18 @@ export const Scopes = () => {
                                                 <span className='bold tab5'>if (dusk) {'{'} </span><br></br>
                                                 <span className='bold tab10'>let color = 'pink';</span><br></br>
                                                 <span className='bold tab10'>console.log(color);</span><br></br>
-                                                <span className='notes tab10 pink'>//Pink</span> <br></br>
+                                                <span className='notes tab10 pink'>{'//Pink'}</span> <br></br>
                                                 <br></br>
                                                 <span className='bold tab5'>{'{'}</span><br></br>
                                                 <span className='bold tab5'>console.log(color);</span><br></br>
-                                                <span className='tab5 green'>//Green</span> <br></br>
+                                                <span className='tab5 green'>{'//Green'}</span> <br></br>
                                                 <br></br>
                                                 <span className='bold'>{'{'}</span><br></br>
                                                 <br></br>
                                                 <span className='bold'>console.log(color);</span><br></br>
-                                                <span className='notes grey'>//ReferenceError</span> <br></br>
+                                                <span className='notes grey'>{'//ReferenceError'}</span> <br></br>
                                                 <br></br>
-                                                <span className='notes'>// ABOVE We create a variable dusk</span> <br></br>
+                                                <span className='notes'>{'// ABOVE We create a variable dusk'}</span> <br></br>
                                                 <span className='notes tab5'>inside the logSkyColor() function</span> <br></br>
                                                 <span className='notes tab5'>After the if statement, we define</span> <br></br>
                                                 <span className='notes tab5'>a new code block with the {'{}'} braces.</span> <br></br>                                            
@@ -134,11 +134,11 @@ export const Scopes = () => {
                                         </Card.Header>
                                         <Accordion.Collapse eventKey="3" style={{fontSize:'12px'}}>
                                             <Card.Body>
-                                                <span className='notes'>//IN THIS LESSON, you learned about scope</span> <br></br>
+                                                <span className='notes'>{'//IN THIS LESSON, you learned about scope'}</span> <br></br>
                                                 <span className='notes tab5'>and how it impacts the accessibility</span> <br></br>
                                                 <span className='notes tab5'>of different variables.</span> <br></br>
                                                 <br></br>
-                                                <span className='notes'>//LETS review the following terms:</span> <br></br>  
+                                                <span className='notes'>{'//LETS review the following terms:'}</span> <br></br>  
                                                 <br></br>                                          
                                                 <span className='notes tab5'>SCOPE is the idea in programming</span> <br></br>                                            
                                                 <span className='notes tab5'>that some variables are accessible/inaccessible </span> <br></br>                                            

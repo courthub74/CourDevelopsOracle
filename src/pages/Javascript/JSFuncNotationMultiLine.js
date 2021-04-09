@@ -20,7 +20,7 @@ export const JSFuncNotationMultiLine = () => {
                         <span>{'}'}</span> <br></br>
                         <span>console.log(quantity(4,4))</span> <br></br>
                         <br></br>
-                        <span className='notes bold'>// Prints: 8</span> <br></br>
+                        <span className='notes bold'>{'// Prints: 8'}</span> <br></br>
                     </Card.Text>
 
                     <ButtonGroup size="sm">

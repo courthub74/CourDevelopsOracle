@@ -22,8 +22,8 @@ export const HTMLDaviesBurgerMenu = () => {
 
                             <Accordion>
                                 <Card>
-                                    <Card.Header>
-                                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                                    <Card.Header className='texty'>
+                                        <Accordion.Toggle as={Button} variant='link' eventKey="0">
                                             Welcome to Davies Burgers
                                         </Accordion.Toggle>
                                     </Card.Header>
@@ -171,8 +171,8 @@ export const HTMLDaviesBurgerMenu = () => {
 
                                         <Accordion>
                                             <Card>
-                                                <Card.Header>
-                                                    <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                                                <Card.Header className='texty'>
+                                                    <Accordion.Toggle as={Button} variant='link' eventKey="1">
                                                         Click here for Code behind the Menu
                                                     </Accordion.Toggle>
                                                 </Card.Header>

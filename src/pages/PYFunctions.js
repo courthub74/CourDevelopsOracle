@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Button, ButtonGroup, Accordion } from 'react-bootstrap'
+import { Card, Button, Accordion } from 'react-bootstrap'
 import './pages.css'
 import * as SiIcons from 'react-icons/si';
 

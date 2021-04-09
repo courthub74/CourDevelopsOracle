@@ -18,7 +18,7 @@ export const JSFuncDeclaration = () => {
                         <span className='tab5'>return side * side * side;</span> <br></br>
                         <span>{'}'}</span> <br></br>
                         <span>volumeOfCube(5);</span> <br></br>
-                        <span className='notes bold'>// Prints: 125</span> <br></br>
+                        <span className='notes bold'>{'// Prints: 125'}</span> <br></br>
                     </Card.Text>
 
                     <ButtonGroup size="sm">

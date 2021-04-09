@@ -29,9 +29,9 @@ export const JSArrays = () => {
 
                                                 <Card.Body>
 
-                                                        <span className='blue'>// Individual elements in arrays can</span> <br></br>
+                                                        <span className='blue'>{'// Individual elements in arrays can'}</span> <br></br>
                                                         <span className='blue tab5'>also be stored to variables</span><br></br>
-                                                        <span className='blue'>// Create a variable named listItem</span><br></br>
+                                                        <span className='blue'>{'// Create a variable named listItem'}</span><br></br>
                                                         <span className='blue tab5'>and set it equal to the first</span> <br></br>
                                                         <span className='blue tab5'>item in the famousSayings array using </span><br></br>
                                                         <span className='blue tab5'>square bracket notation ([])</span> <br></br>
@@ -42,13 +42,13 @@ export const JSArrays = () => {
                                                         <span className='bold'>const listItem = famousSayings[0];</span> <br></br>
                                                         <span className='bold'>console.log(listItem)</span> <br></br>
                                                         <br></br>
-                                                        <span className='blue'>// NOW, console.log() the third element in the</span> <br></br>
+                                                        <span className='blue'>{'// NOW, console.log() the third element in the'}</span> <br></br>
                                                         <span className='blue tab5'>famousSayings array using bracket notation to access the element</span> <br></br>
-                                                        <span className='blue'>// Do not save the element to a new variable before you log it</span> <br></br>
+                                                        <span className='blue'>{'// Do not save the element to a new variable before you log it'}</span> <br></br>
                                                         <br></br>
                                                         <span className='bold'>console.log(famousSayings[2])</span> <br></br>
                                                         <br></br>
-                                                        <span className='blue'>// Change the second element of the array groceryList to 'avocados'</span> <br></br>
+                                                        <span className='blue'>{'// Change the second element of the array groceryList to "avocados"'}</span> <br></br>
                                                         <span className='bold'>let groceryList = ['bread', 'tomatoes', 'milk'];</span> <br></br>
                                                         <span className='bold'>groceryList[1] = 'avocados';</span> <br></br>
                                                         <span></span> <br></br>
@@ -74,18 +74,18 @@ export const JSArrays = () => {
 
                                                 <Card.Body>
 
-                                                        <span className='blue'>//Variables declared with let can be reassigned</span> <br></br>
+                                                        <span className='blue'>{'//Variables declared with let can be reassigned'}</span> <br></br>
                                                         <br></br>
-                                                        <span className='blue'>// Variables declared with the const keyword cannot be reassigned</span><br></br>
+                                                        <span className='blue'>{'//Variables declared with the const keyword cannot be reassigned'}</span><br></br>
                                                         <br></br>
-                                                        <span className='blue'>// For Exemple:</span><br></br>
+                                                        <span className='blue'>For Exemple:</span><br></br>
                                                         <span className='bold'>let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];</span> <br></br>
                                                         <br></br>
-                                                        <span className='blue'>// reassigned to just Ketchup</span><br></br>
+                                                        <span className='blue'>{'//Reassigned to just Ketchup'}</span><br></br>
                                                         <span className='bold'>condiments = ['Ketchup'];</span> <br></br>
                                                         <span className='bold'>console.log(condiments)</span> <br></br>
                                                         <br></br>
-                                                        <span className='blue'>//To log the length of 'objectives' to the console:</span> <br></br>
+                                                        <span className='blue'>{'To log the length of "objectives" to the console:'}</span> <br></br>
                                                         <span className='bold'>const objectives = ['Learn a new languages', 'Read 52 books',</span> <br></br>
                                                         <span className='bold tab5'> 'Run a marathon'];</span><br></br>
                                                         <br></br>
@@ -110,16 +110,16 @@ export const JSArrays = () => {
 
                                                 <Card.Body>
 
-                                                        <span className='blue'>//PUSH (allows you to add items to end of array)</span> <br></br>
+                                                        <span className='blue'>{'//PUSH (allows you to add items to end of array)'}</span> <br></br>
                                                         <br></br>
-                                                        <span className='blue'>// For Exemple:</span><br></br>
+                                                        <span className='blue'>{'// For Exemple:'}</span><br></br>
                                                         <span className='bold'>const itemTracker = ['item 0', 'item 1', 'item 2'];</span> <br></br>
                                                         <br></br>
                                                         <span className='bold'>itemTracker.push('item 3', 'item 4');</span> <br></br>
                                                         <br></br>
                                                         <span className='bold'>console.log(itemTracker);</span> <br></br>
                                                         <br></br>
-                                                        <span className='bold blue'>//Prints</span><br></br>
+                                                        <span className='bold blue'>{'//Prints'}</span><br></br>
                                                         <span className='blue tab5'>[ 'item 0', 'item 1', 'item 2', 'item 3', 'item 4' ]</span> <br></br>
 
                                                 </Card.Body>
@@ -142,13 +142,13 @@ export const JSArrays = () => {
 
                                                 <Card.Body>
 
-                                                        <span className='blue'>//POP (removes an item)</span> <br></br>
+                                                        <span className='blue'>{'//POP (removes an item)'}</span> <br></br>
                                                         <br></br>
                                                         <span className='bold'>const newItemTracker = ['item 0', 'item 1', 'item 2'];</span> <br></br>
                                                         <span className='bold'>newItemTracker.pop();</span> <br></br>
                                                         <span className='bold'>console.log(newItemTracker)</span> <br></br>
                                                         <br></br>
-                                                        <span className='bold blue'>//Prints</span><br></br>
+                                                        <span className='bold blue'>{'//Prints'}</span><br></br>
                                                         <span className='blue tab5'>['item 0', 'item 1']</span> <br></br>
                                                         
                                                 </Card.Body>
@@ -171,7 +171,7 @@ export const JSArrays = () => {
 
                                                 <Card.Body>
 
-                                                        <span className='blue'>//You’re in a hurry so you decide</span> <br></br>
+                                                        <span className='blue'>{'//You’re in a hurry so you decide'}</span> <br></br>
                                                         <span className='blue tab5'>ask a friend to help you with your grocery shopping.</span> <br></br>
                                                         <span className='blue tab5'>You want him to pick up the 'bananas',</span> <br></br>
                                                         <span className='blue tab5'> 'coffee beans', and 'brown rice'.</span> <br></br>
@@ -202,10 +202,10 @@ export const JSArrays = () => {
                                                         <span className='bold'>const numberClusters = [[1,2], [3,4],[5,6]];</span> <br></br>
                                                         <br></br>
                                                         <span className='bold'>const target = numberClusters[2][1];</span> <br></br>
-                                                        <span className='blue'>//Targets third bracket, 2nd element</span> <br></br>
+                                                        <span className='blue'>{'//Targets third bracket, 2nd element'}</span> <br></br>
                                                         <br></br>
                                                         <span className='bold'>console.log(target);</span> <br></br> 
-                                                        <span className='blue'>//6</span> <br></br>                                   
+                                                        <span className='blue'>{'//6'}</span> <br></br>                                   
                                                 </Card.Body>
 
                                             </Accordion.Collapse>

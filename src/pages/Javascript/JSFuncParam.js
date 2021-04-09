@@ -20,7 +20,7 @@ export const JSFuncParam = () => {
                             <span>{'}'}</span> <br></br>
                             <span>groups("Gang Starr", "Public Enemy")</span> <br></br>
                             <br></br>
-                            <span className='notes'>// Prints: One of my fave Hip Hop groups is Gang Starr</span> <br></br>
+                            <span className='notes'>{'// Prints: One of my fave Hip Hop groups is Gang Starr'}</span> <br></br>
                             <span className='notes tab5'>Another on of my fave Hip Hop groups is Public Enemy</span> <br></br>
                         </Card.Text>
 

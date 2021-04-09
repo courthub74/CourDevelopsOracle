@@ -56,7 +56,7 @@ export const JSClasses = () => {
                                                     <br></br>
                                                     <span className='bold'>{'{'}</span><br></br>
                                                     <br></br>
-                                                    <span className='notes bold'>//Doing this class we save time</span> <br></br>
+                                                    <span className='notes bold'>{'//Doing this class we save time'}</span> <br></br>
                                                     <span className='notes tab5'>from having to list each and </span> <br></br>
                                                     <span className='notes tab5'>every dog name by name</span> <br></br>
                                                 </Card.Body>
@@ -91,18 +91,18 @@ export const JSClasses = () => {
                                                     <br></br>
                                                     <span className='bold'>{'{'}</span><br></br>
                                                     <br></br>
-                                                    <span className='blue bold'>//To Print:</span> <br></br>
+                                                    <span className='blue bold'>{'//To Print:'}</span> <br></br>
                                                     <span className='blue tab5'>const halley = new Dog('Halley');</span> <br></br>
                                                     <span className='blue tab5'>console.log(halley.name);</span><br></br>
-                                                    <span className='blue tab5'>// Print name value to console</span> <br></br>
+                                                    <span className='blue tab5'>{'// Print name value to console'}</span> <br></br>
                                                     <span className='blue tab5'>console.log(halley.behavior);</span><br></br> 
-                                                    <span className='blue tab5'>// Print behavior value to console</span> <br></br>
+                                                    <span className='blue tab5'>{'// Print behavior value to console'}</span> <br></br>
                                                     <span className='blue tab5'>halley.incrementBehavior();</span><br></br> 
-                                                    <span className='blue tab5'>// Add one to behavior</span> <br></br>
+                                                    <span className='blue tab5'>{'// Add one to behavior'}</span> <br></br>
                                                     <span className='blue tab5'>console.log(halley.name);</span><br></br> 
-                                                    <span className='blue tab5'>// Print name value to console</span> <br></br>
+                                                    <span className='blue tab5'>{'// Print name value to console'}</span> <br></br>
                                                     <span className='blue tab5'>console.log(halley.behavior);</span><br></br> 
-                                                    <span className='blue tab5'>// Print behavior value to console</span> <br></br>
+                                                    <span className='blue tab5'>{'// Print behavior value to console'}</span> <br></br>
                                                 </Card.Body>
                                             </Accordion.Collapse>
                                         </Card>
