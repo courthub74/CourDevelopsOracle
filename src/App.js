@@ -46,9 +46,13 @@ import { HTMLtables } from './pages/HTML/HTMLtables';
 import { HTMLradiodial } from './pages/HTML/HTMLradiodial';
 import { HTMLauthentication } from './pages/HTML/HTMLauthentication';
 import { HTMLDaviesBurgerMenu } from './pages/HTML/HTMLDaviesBurgerMenu';
+//CSS
+import { CSS } from './pages/CSS/CSS';
 //DJANGO
+import { DJANGO } from './pages/Django/DJANGO';
 import { DJsetup } from './pages/Django/DJsetup';
 import { DJmvcbasics } from './pages/Django/DJmvcbasics';
+import { DJclonerepo } from './pages/Django/DJclonerepo';
 
 
 
@@ -109,9 +113,15 @@ function App() {
             <Route path='/html/authenticate' exact component={HTMLauthentication} />
             <Route path='/html/daves' exact component={HTMLDaviesBurgerMenu} />
 
+            {/* CSS */}
+            <Route path='/css' exact component={CSS}/>
+            
+
             {/* Django */}
+            <Route path='/django' exact component={DJANGO} />
             <Route path='/django/settingup' exact component={DJsetup}/>
             <Route path='/django/mvc' exact component={DJmvcbasics}/>
+            <Route path='/django/clonerepo' exact component={DJclonerepo}/>
 
 
             {/* TODOs */}

@@ -114,7 +114,6 @@ export const DJmvcbasics = () => {
                                                 <span className='bold tab10'>{'<li>{{ all_delivs }}<li>'}</span> <br></br>
                                                 <span className='bold tab5'>{'{ %endfor% }'}</span> <br></br>
                                                 <span className='bold tab5'>{'</ul>'}</span> <br></br>
-                            
                                             </Card.Body>
                                         </Accordion.Collapse>
                                 </Card>

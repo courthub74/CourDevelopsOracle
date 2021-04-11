@@ -58,10 +58,7 @@
     color: green;
   }
 
-.djsetup,
-.djmvcbasics,
-.django,
-.djclonerepo {
+.css {
     display: flex;
     height: 90vh;
     align-items: center;

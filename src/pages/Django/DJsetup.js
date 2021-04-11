@@ -168,6 +168,8 @@ export const DJsetup = () => {
                         </Card.Text>
                     </Card.Body>
             </Card>
+
+            
         </div>
     )
 }
