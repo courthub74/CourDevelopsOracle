@@ -59,7 +59,8 @@
   }
 
 
-.djsetup {
+.djsetup,
+.djmvcbasics {
     display: flex;
     height: 90vh;
     align-items: center;

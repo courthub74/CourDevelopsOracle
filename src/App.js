@@ -48,6 +48,7 @@ import { HTMLauthentication } from './pages/HTML/HTMLauthentication';
 import { HTMLDaviesBurgerMenu } from './pages/HTML/HTMLDaviesBurgerMenu';
 //DJANGO
 import { DJsetup } from './pages/Django/DJsetup';
+import { DJmvcbasics } from './pages/Django/DJmvcbasics';
 
 
 
@@ -110,6 +111,7 @@ function App() {
 
             {/* Django */}
             <Route path='/django/settingup' exact component={DJsetup}/>
+            <Route path='/django/mvc' exact component={DJmvcbasics}/>
 
 
             {/* TODOs */}
