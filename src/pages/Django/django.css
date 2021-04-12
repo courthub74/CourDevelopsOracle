@@ -61,14 +61,15 @@
 .djsetup,
 .djmvcbasics,
 .django,
-.djclonerepo {
+.djclonerepo,
+.djmodels,
+.djorm {
     display: flex;
     height: 90vh;
     align-items: center;
     justify-content: center;
     font-size: 5rem;
   }
-
 
 .pad1 {
     padding: 1em;

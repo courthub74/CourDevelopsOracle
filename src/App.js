@@ -53,6 +53,8 @@ import { DJANGO } from './pages/Django/DJANGO';
 import { DJsetup } from './pages/Django/DJsetup';
 import { DJmvcbasics } from './pages/Django/DJmvcbasics';
 import { DJclonerepo } from './pages/Django/DJclonerepo';
+import { DJmodels } from './pages/Django/DJmodels';
+import { DJorm } from './pages/Django/DJorm';
 
 
 
@@ -122,6 +124,8 @@ function App() {
             <Route path='/django/settingup' exact component={DJsetup}/>
             <Route path='/django/mvc' exact component={DJmvcbasics}/>
             <Route path='/django/clonerepo' exact component={DJclonerepo}/>
+            <Route path='/django/models' exact component={DJmodels}/>
+            <Route path='/django/orm' exact component={DJorm}/>
 
 
             {/* TODOs */}
