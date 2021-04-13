@@ -7,7 +7,7 @@ export const DJorm = () => {
     return (
         <div className='djorm'>
 
-<Card>
+            <Card>
                 <Card.Header><h1><SiIcons.SiDjango />ango ORM <SiIcons.SiPython /> </h1></Card.Header>
                     <Card.Body>
                         <Card.Text>
