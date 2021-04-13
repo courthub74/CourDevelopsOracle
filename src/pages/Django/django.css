@@ -63,7 +63,8 @@
 .django,
 .djclonerepo,
 .djmodels,
-.djorm {
+.djorm,
+.djheroku {
     display: flex;
     height: 90vh;
     align-items: center;

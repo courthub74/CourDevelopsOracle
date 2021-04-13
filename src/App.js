@@ -55,6 +55,7 @@ import { DJmvcbasics } from './pages/Django/DJmvcbasics';
 import { DJclonerepo } from './pages/Django/DJclonerepo';
 import { DJmodels } from './pages/Django/DJmodels';
 import { DJorm } from './pages/Django/DJorm';
+import { DJheroku } from './pages/Django/DJheroku';
 
 
 
@@ -126,6 +127,7 @@ function App() {
             <Route path='/django/clonerepo' exact component={DJclonerepo}/>
             <Route path='/django/models' exact component={DJmodels}/>
             <Route path='/django/orm' exact component={DJorm}/>
+            <Route path='/django/heroku' exact component={DJheroku}/>
 
 
             {/* TODOs */}
