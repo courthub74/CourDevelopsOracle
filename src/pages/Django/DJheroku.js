@@ -16,7 +16,7 @@ export const DJheroku = () => {
                                 {/* Login Heroku */}
                                 <Card>
                                     <Accordion.Toggle as={Card.Header} eventKey="0">
-                                        FIRST in the CMDLINE:
+                                        FIRST in the <span className='bold'>cmdline</span>:
                                     </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="0">
                                             <Card.Body className='texty'>
@@ -37,7 +37,7 @@ export const DJheroku = () => {
                                 {/* Secret Key Settings */}
                                 <Card>
                                     <Accordion.Toggle as={Card.Header} eventKey="2">
-                                        NEXT in SETTINGS.PY:
+                                        NEXT in <span className='bold'>settings.py</span>:
                                     </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="2">
                                             <Card.Body className='texty'>
@@ -61,14 +61,14 @@ export const DJheroku = () => {
                                 {/* Installations */}
                                 <Card>
                                     <Accordion.Toggle as={Card.Header} eventKey="3">
-                                        THEN back to CMD line:
+                                        THEN back to <span className='bold'>cmd</span> line:
                                     </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="3">
                                             <Card.Body className='texty'>
                                                 <span className='bold'>pip install gunicorn</span> <br></br>
                                                 <span className='bold'>pip install django-heroku</span> <br></br>
                                                 <span className='bold'>pip install python-decouple</span> <br></br>
-                                                <span className='bold'>return render(request, 'home.html',</span> <br></br>
+                                        
                                                 <br></br>
                                                 <span>NOTE: Do a</span><span className='bold'> pip freeze</span><br></br>
                                                 <span>to check if its all there</span> <br></br>
@@ -79,7 +79,7 @@ export const DJheroku = () => {
                                 {/* Imports */}
                                 <Card>
                                     <Accordion.Toggle as={Card.Header} eventKey="4">
-                                        BACK to SETTINGS.PY:
+                                        BACK to <span className='bold'>settings.py</span>:
                                     </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="4">
                                             <Card.Body className='texty'>
@@ -142,7 +142,7 @@ export const DJheroku = () => {
                                 {/* Procfile */}
                                 <Card>
                                     <Accordion.Toggle as={Card.Header} eventKey="7">
-                                        BACK to CMDLINE:
+                                        BACK to <span className='bold'>cmdline</span>:
                                     </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="7">
                                             <Card.Body className='texty'>

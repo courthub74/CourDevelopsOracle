@@ -56,6 +56,9 @@ import { DJclonerepo } from './pages/Django/DJclonerepo';
 import { DJmodels } from './pages/Django/DJmodels';
 import { DJorm } from './pages/Django/DJorm';
 import { DJheroku } from './pages/Django/DJheroku';
+//FLASK
+import { FLASK } from './pages/Flask/FLASK';
+import { FLbasics } from './pages/Flask/FLbasics';
 
 
 
@@ -128,6 +131,10 @@ function App() {
             <Route path='/django/models' exact component={DJmodels}/>
             <Route path='/django/orm' exact component={DJorm}/>
             <Route path='/django/heroku' exact component={DJheroku}/>
+
+            {/* Flask */}
+            <Route path='/flask' exact component={FLASK} />
+            <Route path='/flask/basicflask' exact component={FLbasics} />
 
 
             {/* TODOs */}
