@@ -57,7 +57,8 @@
   }
 
 .flflask,
-.flbasics {
+.flbasics,
+.flheroku {
     display: flex;
     height: 90vh;
     align-items: center;

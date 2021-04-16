@@ -49,7 +49,7 @@ export const FLbasics = () => {
                                         NEXT you add pages like so:
                                     </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="1">
-                                            <Card.Body className='texty2'>
+                                            <Card.Body className='texty'>
                         
                                                 <span className='bold'>from flask import Flask</span> <br></br>
                                                 <br></br>
@@ -67,9 +67,9 @@ export const FLbasics = () => {
                                                 <br></br>
                                                 <span>THIS sets up the 'About' page</span> <br></br>
                                                 <hr></hr>
-                                                <span className='bold green texty2'>@app.route('/pricing')</span> <br></br>
-                                                <span className='bold green texty2'>def pricing():</span> <br></br>
-                                                <span className='bold green texty2 tab5'>return render_template("pricing.html")</span> <br></br>
+                                                <span className='bold green'>@app.route('/pricing')</span> <br></br>
+                                                <span className='bold green'>def pricing():</span> <br></br>
+                                                <span className='bold green tab5'>return render_template("pricing.html")</span> <br></br>
                                                 <br></br>
                                                 <span>THIS sets up the 'Pricing' page</span> <br></br>
                                                 <br></br>
