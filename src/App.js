@@ -59,6 +59,9 @@ import { DJheroku } from './pages/Django/DJheroku';
 //FLASK
 import { FLASK } from './pages/Flask/FLASK';
 import { FLbasics } from './pages/Flask/FLbasics';
+import { FLheroku } from './pages/Flask/FLheroku';
+//GIT
+import { GIT } from './pages/Git/GIT';
 
 
 
@@ -71,6 +74,7 @@ function App() {
 
             {/* HOME */}
             <Route path='/pages/home' exact component={Home} />
+
 
             {/* PYTHON */}
             <Route path='/python' exact component={Python} />
@@ -85,6 +89,7 @@ function App() {
             <Route path='/python/regex' exact component={Regex} />
             <Route path='/python/webscraping' exact component={WebScraping} />
             <Route path='/python/autoemail' exact component={SendingEmail} />
+
 
             {/* JAVASCRIPT */}
             <Route path='/javascript' exact component={Javascript} />
@@ -135,6 +140,10 @@ function App() {
             {/* Flask */}
             <Route path='/flask' exact component={FLASK} />
             <Route path='/flask/basicflask' exact component={FLbasics} />
+            <Route path='/flask/heroku' exact component={FLheroku} />
+
+            {/* Git  */}
+            <Route path='/git' exact component={GIT} />
 
 
             {/* TODOs */}
