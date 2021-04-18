@@ -63,6 +63,9 @@ import { FLheroku } from './pages/Flask/FLheroku';
 //GIT
 import { GIT } from './pages/Git/GIT';
 import { GITinit } from './pages/Git/GITinit';
+import { GITignore } from './pages/Git/GITignore';
+import { GITdeleterepo } from './pages/Git/GITdeleterepo';
+import { GITpushheroku } from './pages/Git/GITpushheroku';
 
 
 
@@ -146,6 +149,9 @@ function App() {
             {/* Git  */}
             <Route path='/git' exact component={GIT} />
             <Route path='/git/general' exact component={GITinit} />
+            <Route path='/git/gitignore' exact component={GITignore} />
+            <Route path='/git/deletegit' exact component={GITdeleterepo} />
+            <Route path='/git/heroku' exact component={GITpushheroku} />
 
 
             {/* TODOs */}

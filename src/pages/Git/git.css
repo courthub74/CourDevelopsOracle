@@ -61,7 +61,10 @@
   }
   
 .gitgit,
-.gitinit {
+.gitinit,
+.gitignore,
+.gitdeletrepo,
+.gitpushheroku {
     display: flex;
     height: 90vh;
     align-items: center;

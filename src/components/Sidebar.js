@@ -44,7 +44,7 @@ const SidebarNav = styled.nav`
     top: 5;
     overflow-y: auto;
     left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
-    transition: 600ms;
+    transition: 4000ms;
     z-index: 10;
 `;
 
