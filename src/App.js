@@ -62,6 +62,7 @@ import { FLbasics } from './pages/Flask/FLbasics';
 import { FLheroku } from './pages/Flask/FLheroku';
 //GIT
 import { GIT } from './pages/Git/GIT';
+import { GITinit } from './pages/Git/GITinit';
 
 
 
@@ -144,6 +145,7 @@ function App() {
 
             {/* Git  */}
             <Route path='/git' exact component={GIT} />
+            <Route path='/git/general' exact component={GITinit} />
 
 
             {/* TODOs */}
