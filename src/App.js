@@ -69,6 +69,10 @@ import { GITpushheroku } from './pages/Git/GITpushheroku';
 //GITHUB
 import { GitHub } from './pages/GitHub/GitHub';
 import { GHinitpush } from './pages/GitHub/GHinitpush';
+//API
+import { API } from './pages/API/API';
+import { APIrest } from './pages/API/APIrest';
+import { APIsoap } from './pages/API/APIsoap';
 
 
 
@@ -159,6 +163,12 @@ function App() {
             {/* GitHub */}
             <Route path='/github' exact component={GitHub} />
             <Route path='/github/push' exact component={GHinitpush} />
+
+            {/* API */}
+            <Route path='/api' exact component={API} />
+            <Route path='/api/rest' exact component={APIrest} />
+            <Route path='/api/soap' exact component={APIsoap} />
+
 
 
             {/* TODOs */}
