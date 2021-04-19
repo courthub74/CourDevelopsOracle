@@ -66,6 +66,9 @@ import { GITinit } from './pages/Git/GITinit';
 import { GITignore } from './pages/Git/GITignore';
 import { GITdeleterepo } from './pages/Git/GITdeleterepo';
 import { GITpushheroku } from './pages/Git/GITpushheroku';
+//GITHUB
+import { GitHub } from './pages/GitHub/GitHub';
+import { GHinitpush } from './pages/GitHub/GHinitpush';
 
 
 
@@ -152,6 +155,10 @@ function App() {
             <Route path='/git/gitignore' exact component={GITignore} />
             <Route path='/git/deletegit' exact component={GITdeleterepo} />
             <Route path='/git/heroku' exact component={GITpushheroku} />
+
+            {/* GitHub */}
+            <Route path='/github' exact component={GitHub} />
+            <Route path='/github/push' exact component={GHinitpush} />
 
 
             {/* TODOs */}

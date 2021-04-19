@@ -14,7 +14,7 @@ export const GIT = () => {
                     <Card.Body>
 
                         <Card.Text>
-                            Git is a distributed version-control system for <br></br>
+                            Git is a distributed version-control system for 
                             tracking changes in source code during software <br></br>
                             development. It is designed for coordinating work <br></br>
                             among programmers, but it can be used to track <br></br>
