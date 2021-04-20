@@ -73,6 +73,10 @@ import { GHinitpush } from './pages/GitHub/GHinitpush';
 import { API } from './pages/API/API';
 import { APIrest } from './pages/API/APIrest';
 import { APIsoap } from './pages/API/APIsoap';
+//REACT 
+import { REACT } from './pages/React/REACT';
+import { REstartapp } from './pages/React/REstartapp';
+import { REconstruct } from './pages/React/REconstruct';
 
 
 
@@ -168,6 +172,11 @@ function App() {
             <Route path='/api' exact component={API} />
             <Route path='/api/rest' exact component={APIrest} />
             <Route path='/api/soap' exact component={APIsoap} />
+
+            {/* React */}
+            <Route path='/react' exact component={REACT} />
+            <Route path='/react/start' exact component={REstartapp} />
+            <Route path='/react/constructor' exact component={REconstruct} />
 
 
 

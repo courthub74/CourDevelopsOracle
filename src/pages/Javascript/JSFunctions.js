@@ -87,7 +87,7 @@ export const JSFunctions = () => {
                             <Card>
                                 <Card.Header>
                                 <Accordion.Toggle as={Button} variant="link" eventKey="2" style={{fontSize:'15px'}}>
-                                    <span className='accordian'>{'// ={'>'} Notation'}</span>
+                                    <span className='accordian'>{'// Arrow Notation'}</span>
                                 </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="2" style={{fontSize:'12px'}}>
@@ -111,7 +111,7 @@ export const JSFunctions = () => {
                             <Card>
                                 <Card.Header>
                                 <Accordion.Toggle as={Button} variant="link" eventKey="3" style={{fontSize:'15px'}}>
-                                    <span className='accordian'>{'// Multi-Line ={'>'} Notation'}</span>
+                                    <span className='accordian'>{'// Multi-Line Arrow Notation'}</span>
                                 </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="3" style={{fontSize:'12px'}}>
