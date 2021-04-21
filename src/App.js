@@ -56,6 +56,7 @@ import { DJclonerepo } from './pages/Django/DJclonerepo';
 import { DJmodels } from './pages/Django/DJmodels';
 import { DJorm } from './pages/Django/DJorm';
 import { DJheroku } from './pages/Django/DJheroku';
+import { DJauthenticate } from './pages/Django/DJauthenticate';
 //FLASK
 import { FLASK } from './pages/Flask/FLASK';
 import { FLbasics } from './pages/Flask/FLbasics';
@@ -77,6 +78,7 @@ import { APIsoap } from './pages/API/APIsoap';
 import { REACT } from './pages/React/REACT';
 import { REstartapp } from './pages/React/REstartapp';
 import { REconstruct } from './pages/React/REconstruct';
+import { REbuttonmap } from './pages/React/REbuttonmap';
 
 
 
@@ -151,6 +153,7 @@ function App() {
             <Route path='/django/models' exact component={DJmodels}/>
             <Route path='/django/orm' exact component={DJorm}/>
             <Route path='/django/heroku' exact component={DJheroku}/>
+            <Route path='/django/auth' exact component={DJauthenticate} />
 
             {/* Flask */}
             <Route path='/flask' exact component={FLASK} />
@@ -177,6 +180,7 @@ function App() {
             <Route path='/react' exact component={REACT} />
             <Route path='/react/start' exact component={REstartapp} />
             <Route path='/react/constructor' exact component={REconstruct} />
+            <Route path='/react/buttonmapping' exact component={REbuttonmap} />
 
 
 

@@ -16,6 +16,9 @@
 .tab20 {
     margin-left: 60px;
 }
+.tab25 {
+    margin-left: 80px;
+}
 
 .bold {
     font-weight: bold;
@@ -63,7 +66,8 @@
 
 .reacthome,
 .reactstart,
-.reactconstr {
+.reactconstr,
+.reactbuttonmap {
     display: flex;
     height: 90vh;
     align-items: center;

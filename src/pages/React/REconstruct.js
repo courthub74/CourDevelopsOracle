@@ -1,5 +1,5 @@
 import React from 'react'
-import { Accordion, Card, Button } from 'react-bootstrap'
+import { Accordion, Card } from 'react-bootstrap'
 import * as FaIcons from 'react-icons/fa'
 import './react.css'
 
@@ -23,11 +23,11 @@ export const REconstruct = () => {
 
                             {/* The Syntax */}
                             <Card>
-                                <Card.Header>
-                                    <Accordion.Toggle as={Button} variant='link' eventKey="0">
+                                
+                                    <Accordion.Toggle as={Card.Header} eventKey="0" className='texty2'>
                                         The Syntax
                                     </Accordion.Toggle>
-                                </Card.Header>
+                                
                                 <Accordion.Collapse eventKey='0'>
                                     <Card.Body className='texty'>
                                         <span className='bold'>Constructor(props){'{'}</span> <br></br>
@@ -40,11 +40,11 @@ export const REconstruct = () => {
 
                             {/* App.js */}
                             <Card>
-                                <Card.Header>
-                                    <Accordion.Toggle as={Button} variant='link' eventKey="1">
+                                
+                                    <Accordion.Toggle as={Card.Header} eventKey="1" className='texty2'>
                                         App.js
                                     </Accordion.Toggle>
-                                </Card.Header>
+                                
                                 <Accordion.Collapse eventKey='1'>
                                     <Card.Body className='texty'>
                                         <span className='bold'>import React, {'{ Component }'} from 'react'; </span> <br></br>
@@ -80,11 +80,11 @@ export const REconstruct = () => {
 
                             {/* Main.js */}
                             <Card>
-                                <Card.Header>
-                                    <Accordion.Toggle as={Button} variant='link' eventKey="2">
+                                
+                                    <Accordion.Toggle as={Card.Header} variant='link' eventKey="2" className='texty2'>
                                         Main.js
                                     </Accordion.Toggle>
-                                </Card.Header>
+                                
                                 <Accordion.Collapse eventKey='2'>
                                     <Card.Body className='texty'>
                                         <span className='bold'>import React from 'react'; </span> <br></br>
@@ -98,11 +98,11 @@ export const REconstruct = () => {
 
                             {/* The Output */}
                             <Card>
-                                <Card.Header>
-                                    <Accordion.Toggle as={Button} variant='link' eventKey="3">
+                                
+                                    <Accordion.Toggle as={Card.Header} variant='link' eventKey="3" className='texty2'>
                                         The Output
                                     </Accordion.Toggle>
-                                </Card.Header>
+                                
                                 <Accordion.Collapse eventKey='3'>
                                     <Card.Body>
                                         
