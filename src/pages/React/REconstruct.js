@@ -95,6 +95,25 @@ export const REconstruct = () => {
                                     </Card.Body>
                                 </Accordion.Collapse>
                             </Card>
+
+                            {/* The Output */}
+                            <Card>
+                                <Card.Header>
+                                    <Accordion.Toggle as={Button} variant='link' eventKey="2">
+                                        The Output
+                                    </Accordion.Toggle>
+                                </Card.Header>
+                                <Accordion.Collapse eventKey='2'>
+                                    <Card.Body className='texty'>
+                                        
+                                        <img src='https://static.javatpoint.com/tutorial/reactjs/images/react-constructor-output.png'/>
+                                        
+                                    </Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+
+
+                            
                         </Accordion>
                     </Card.Text>
                 </Card.Body>
