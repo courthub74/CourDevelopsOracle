@@ -259,10 +259,6 @@ export const SidebarData = [
                 path: '/react/constructor',
             },
             {
-                title: 'Change Class by Click',
-                path: '/react/classchange',
-            },
-            {
                 title: 'Button Mapping',
                 path: '/react/buttonmapping',
             },

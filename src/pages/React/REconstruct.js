@@ -99,15 +99,16 @@ export const REconstruct = () => {
                             {/* The Output */}
                             <Card>
                                 <Card.Header>
-                                    <Accordion.Toggle as={Button} variant='link' eventKey="2">
+                                    <Accordion.Toggle as={Button} variant='link' eventKey="3">
                                         The Output
                                     </Accordion.Toggle>
                                 </Card.Header>
-                                <Accordion.Collapse eventKey='2'>
-                                    <Card.Body className='texty'>
+                                <Accordion.Collapse eventKey='3'>
+                                    <Card.Body>
                                         
-                                        <img src='https://static.javatpoint.com/tutorial/reactjs/images/react-constructor-output.png'/>
-                                        
+                                        <img src='https://static.javatpoint.com/tutorial/reactjs/images/react-constructor-output.png' alt='output' />
+                                        {/* make Bigger  */}
+
                                     </Card.Body>
                                 </Accordion.Collapse>
                             </Card>
@@ -120,6 +121,7 @@ export const REconstruct = () => {
             </Card>
             
         </div>
+
     )
 }
 
