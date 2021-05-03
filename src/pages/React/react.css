@@ -67,7 +67,8 @@
 .reacthome,
 .reactstart,
 .reactconstr,
-.reactbuttonmap {
+.reactbuttonmap,
+.reactauth {
     display: flex;
     height: 90vh;
     align-items: center;

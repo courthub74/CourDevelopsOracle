@@ -5,7 +5,7 @@ import { Home } from './pages/Home';
 //PYTHON
 import { Python } from './pages/Python';
 import { Javascript } from './pages/Javascript';
-import { Projects } from './pages/Projects';
+// import { Projects } from './pages/Projects';
 import { PYFunctions } from './pages/PYFunctions';
 import { SelfParameter } from './pages/Python/SelfParameter';
 import { ForLoop } from './pages/Python/ForLoop';
@@ -79,6 +79,9 @@ import { REACT } from './pages/React/REACT';
 import { REstartapp } from './pages/React/REstartapp';
 import { REconstruct } from './pages/React/REconstruct';
 import { REbuttonmap } from './pages/React/REbuttonmap';
+import { REauthenticate } from './pages/React/REauthenticate';
+//TODOS
+// import { ProjectsToDo } from './pages/Projects';
 
 
 
@@ -181,11 +184,12 @@ function App() {
             <Route path='/react/start' exact component={REstartapp} />
             <Route path='/react/constructor' exact component={REconstruct} />
             <Route path='/react/buttonmapping' exact component={REbuttonmap} />
+            <Route path='/react/jsauth' exact component={REauthenticate} />
 
 
 
             {/* TODOs */}
-            <Route path='/pages/projects' exact component={Projects} />
+            {/* <Route path='/pages/projects' exact component={ProjectsToDo} /> */}
 
           </Switch>
       </Router>
