@@ -81,8 +81,9 @@ import { REconstruct } from './pages/React/REconstruct';
 import { REbuttonmap } from './pages/React/REbuttonmap';
 import { REauthenticate } from './pages/React/REauthenticate';
 //TODOS
-// import { ProjectsToDo } from './pages/Projects';
-
+// import { ProjectsToDo } from './pages/ToDos/Projects';
+import { Projects } from './pages/ToDos/Projects/Projects';
+import { DelivsToDo } from './pages/ToDos/Deliverables/DeliverablesList';
 
 
 function App() {
@@ -190,7 +191,8 @@ function App() {
 
             {/* TODOs */}
             {/* <Route path='/pages/projects' exact component={ProjectsToDo} /> */}
-
+            <Route path='/pages/projects' exact component={Projects} />
+            <Route path='/pages/deliverables' exact component={DelivsToDo} />
           </Switch>
       </Router>
     </div>
