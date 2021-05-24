@@ -84,6 +84,8 @@ import { REauthenticate } from './pages/React/REauthenticate';
 // import { ProjectsToDo } from './pages/ToDos/Projects';
 import { ProjectsList } from './pages/ToDos/Projects/ProjectsList';
 import DeliverablesList from './pages/ToDos/Deliverables/DeliverablesList';
+import { PracticesList } from './pages/ToDos/Practices/PracticesList';
+import { ClassesList } from './pages/ToDos/Classes/ClassesList';
 
 
 
@@ -194,6 +196,8 @@ function App() {
             {/* <Route path='/pages/projects' exact component={ProjectsToDo} /> */}
             <Route path='/pages/projects' exact component={ProjectsList} />
             <Route path='/pages/deliverables' exact component={DeliverablesList} />
+            <Route path='/pages/practices' exact component={PracticesList} />
+            <Route path='/react/classes' exact component={ClassesList} />
             
 
           </Switch>
