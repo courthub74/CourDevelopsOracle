@@ -1,12 +1,19 @@
-import React from 'react';
-// import './todos.css';
+import React, {useState} from 'react'
+
+function DeliverablesList() {
+    const [input, setInput] = useState('');
 
 
-
-export const DelivsToDo = () => {
     return (
-        <div className='delivs'>
-           <h1>Hello Deliverables</h1>
-        </div>
+        <form className="deliv-form">
+            <input type="text" placeholder="Add a Deliverable" value={input} name='text' className='deliv-input' />
+            <button className="deliv-button">
+                Add Deliverable
+            </button>
+        </form>
     )
 }
+
+export default DeliverablesList;
+
+
