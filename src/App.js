@@ -197,7 +197,7 @@ function App() {
             <Route path='/pages/projects' exact component={ProjectsList} />
             <Route path='/pages/deliverables' exact component={DeliverablesList} />
             <Route path='/pages/practices' exact component={PracticesList} />
-            <Route path='/react/classes' exact component={ClassesList} />
+            <Route path='/pages/classes' exact component={ClassesList} />
             
 
           </Switch>
