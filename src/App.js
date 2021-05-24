@@ -82,7 +82,7 @@ import { REbuttonmap } from './pages/React/REbuttonmap';
 import { REauthenticate } from './pages/React/REauthenticate';
 //TODOS
 // import { ProjectsToDo } from './pages/ToDos/Projects';
-import { Projects } from './pages/ToDos/Projects/Projects';
+import { ProjectsList } from './pages/ToDos/Projects/ProjectsList';
 import DeliverablesList from './pages/ToDos/Deliverables/DeliverablesList';
 
 
@@ -192,7 +192,7 @@ function App() {
 
             {/* TODOs */}
             {/* <Route path='/pages/projects' exact component={ProjectsToDo} /> */}
-            <Route path='/pages/projects' exact component={Projects} />
+            <Route path='/pages/projects' exact component={ProjectsList} />
             <Route path='/pages/deliverables' exact component={DeliverablesList} />
             
 
