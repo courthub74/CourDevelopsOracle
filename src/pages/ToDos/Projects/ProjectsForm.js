@@ -25,9 +25,10 @@ function ProjectsForm(props) {
                 placeholder='Add a Project' 
                 value={input} 
                 name='text' 
-                className='project-input' />
+                className='project-input' 
+                onChange={handleChange}/>
 
-            <button className='project-button'>
+            <button onClick={handleSubmit} className='project-button'>
                 Add a Project
             </button>
 
