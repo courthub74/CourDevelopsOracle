@@ -3,11 +3,25 @@ import ProjectsForm from './ProjectsForm'
 import { RiCloseCircleLine } from 'react-icons/ri'
 import { TiEdit } from 'react-icons/ti'
 
-function ProjectsTodo({projects, completeProject, removeProject}) {
+function ProjectsTodo({projects, completeProject, removeProject, updateProject}) {
     const [edit, setEdit] = useState({
         id: null,
         value: ''
     });
+
+    const submitUpdate = value => {
+        updateProject(edit.id, value);
+        setEdit({
+            id: null,
+            value: ''
+        });
+    };
+
+    if (edit.id) {
+        return <ProjectsForm edit={edit} onSubmit={submitUpdate} />;
+    }
+
+
 
     return projects.map((project, index) => (
         <div 
