@@ -2,6 +2,7 @@ import './App.css';
 import { Sidebar } from './components/Sidebar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Home } from './pages/Home';
+// import './pages/ToDos/Projects/project.css';
 //PYTHON
 import { Python } from './pages/Python';
 import { Javascript } from './pages/Javascript';
@@ -194,7 +195,9 @@ function App() {
 
             {/* TODOs */}
             {/* <Route path='/pages/projects' exact component={ProjectsToDo} /> */}
+            <div className='projects-app'>
             <Route path='/pages/projects' exact component={ProjectsList} />
+            </div>
             <Route path='/pages/deliverables' exact component={DeliverablesList} />
             <Route path='/pages/practices' exact component={PracticesList} />
             <Route path='/pages/classes' exact component={ClassesList} />

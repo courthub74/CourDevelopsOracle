@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import ProjectsForm from './ProjectsForm';
 import ProjectsTodo from './ProjectsTodo';
+import './projects.css';
 
 
 export const ProjectsList = () => {

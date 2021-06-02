@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import ProjectsForm from './ProjectsForm'
 import { RiCloseCircleLine } from 'react-icons/ri'
 import { TiEdit } from 'react-icons/ti'
+import './projects.css';
 
 function ProjectsTodo({projects, completeProject, removeProject, updateProject}) {
     const [edit, setEdit] = useState({
@@ -48,4 +49,4 @@ function ProjectsTodo({projects, completeProject, removeProject, updateProject})
     )
 }
 
-export default ProjectsTodo
+export default ProjectsTodo;
