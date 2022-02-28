@@ -9,7 +9,7 @@ export const AllenIverson = () => {
 
             <Card>
 
-                <Card.Header><h1>Allen Iverson <SiIcons.SiJavascript/></h1></Card.Header>
+                <Card.Header><h1 className='black'>Allen Iverson <SiIcons.SiJavascript/></h1></Card.Header>
 
                 <Card.Body>
 

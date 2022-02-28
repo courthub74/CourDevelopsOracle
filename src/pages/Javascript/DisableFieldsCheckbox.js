@@ -9,7 +9,7 @@ export const DisableFieldsCheckbox = () => {
 
             <Card>
 
-                <Card.Header><h1>Disable Fields by Checkbox <SiIcons.SiJavascript/></h1></Card.Header>
+                <Card.Header><h1 className='black'>Disable Fields by Checkbox <SiIcons.SiJavascript/></h1></Card.Header>
 
                 <Card.Body>
                     <Card.Text className='texty2'>

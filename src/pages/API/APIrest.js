@@ -9,7 +9,7 @@ export const APIrest = () => {
 
             <Card>
 
-                <Card.Header><h1>RESTful API <AiIcons.AiFillApi/></h1></Card.Header>
+                <Card.Header><h1 className='black'>RESTful API <AiIcons.AiFillApi/></h1></Card.Header>
 
                     <Card.Body>
 

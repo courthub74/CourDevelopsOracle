@@ -10,7 +10,7 @@ export const JSFunctions = () => {
 
             <Card>
 
-                <Card.Header><h1>Functions <SiIcons.SiJavascript/></h1></Card.Header>
+                <Card.Header><h1 className='black'>Functions <SiIcons.SiJavascript/></h1></Card.Header>
 
                 <Card.Body>
                     <Card.Text className='texty2'>

@@ -7,7 +7,7 @@ export const Counter = () => {
     return (
         <div className="counter">
             <Card>
-                <Card.Header><h1>Counter <SiIcons.SiPython /></h1></Card.Header>
+                <Card.Header><h1 className='black'>Counter <SiIcons.SiPython /></h1></Card.Header>
 
                 <Card.Body>
                     <Card.Text className="texty">

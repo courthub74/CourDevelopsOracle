@@ -9,7 +9,7 @@ export const JSBasics = () => {
 
             <Card>
 
-                <Card.Header><h2>Basics <SiIcons.SiJavascript/></h2></Card.Header>
+                <Card.Header><h2 className='black'>Basics <SiIcons.SiJavascript/></h2></Card.Header>
 
                 <Card.Body>
                     <Card.Text>

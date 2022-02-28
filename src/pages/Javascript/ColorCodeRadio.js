@@ -9,7 +9,7 @@ export const ColorCodeRadio = () => {
 
             <Card>
 
-                <Card.Header><h1>Color Code by Radiodial <SiIcons.SiJavascript/></h1></Card.Header>
+                <Card.Header><h1 className='black'>Color Code by Radiodial <SiIcons.SiJavascript/></h1></Card.Header>
 
                 <Card.Body>
 

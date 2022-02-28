@@ -9,7 +9,7 @@ export const JSFuncDeclaration = () => {
         <div className='jsfuncdec'>
 
             <Card>
-                <Card.Header><h3>Functions W.Function Declaration <SiIcons.SiJavascript/></h3></Card.Header>
+                <Card.Header><h3 className='black'>Functions W.Function Declaration <SiIcons.SiJavascript/></h3></Card.Header>
 
                 <Card.Body>
 

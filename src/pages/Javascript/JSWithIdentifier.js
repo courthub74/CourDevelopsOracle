@@ -9,7 +9,7 @@ export const JSWithIdentifier = () => {
         <div className='jsidentifier'>
             <Card>
 
-                <Card.Header><h1>Functions W.Identifier <SiIcons.SiJavascript/></h1></Card.Header>
+                <Card.Header><h1 className='black'>Functions W.Identifier <SiIcons.SiJavascript/></h1></Card.Header>
 
 
                 <Card.Body>

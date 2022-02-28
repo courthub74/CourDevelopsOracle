@@ -9,7 +9,7 @@ export const Scopes = () => {
 
             <Card>
 
-                <Card.Header><h1>Scopes <SiIcons.SiJavascript/></h1></Card.Header>
+                <Card.Header><h1 className='black'>Scopes <SiIcons.SiJavascript/></h1></Card.Header>
                     <Card.Body>
                         <Card.Text>
                             <div>

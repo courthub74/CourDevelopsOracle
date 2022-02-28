@@ -9,7 +9,7 @@ export const JSFuncNotationMultiLine = () => {
         <div className='jsarrowmulti'>
             <Card>
 
-                <Card.Header><h1>Functions W.Arrow Notation/Multi-Line Block <SiIcons.SiJavascript/></h1></Card.Header>
+                <Card.Header><h1 className='black'>Functions W.Arrow Notation/Multi-Line Block <SiIcons.SiJavascript/></h1></Card.Header>
 
                 <Card.Body>
 

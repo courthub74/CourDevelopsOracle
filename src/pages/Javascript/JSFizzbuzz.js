@@ -9,7 +9,7 @@ export const JSFizzbuzz = () => {
 
             <Card>
 
-                <Card.Header><h1>FizzBuzz <SiIcons.SiJavascript/></h1></Card.Header>
+                <Card.Header><h1 className='black'>FizzBuzz <SiIcons.SiJavascript/></h1></Card.Header>
 
                 <Card.Body>
 

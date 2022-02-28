@@ -9,7 +9,7 @@ export const DJauthenticate = () => {
 
             <Card>
 
-                <Card.Header><h1><SiIcons.SiDjango />ango Authenticate <SiIcons.SiPython /></h1></Card.Header>
+                <Card.Header><h1 className='black'><SiIcons.SiDjango />ango Authenticate <SiIcons.SiPython /></h1></Card.Header>
 
                     <Card.Body>
 

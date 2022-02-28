@@ -9,7 +9,7 @@ export const SelfParameter = () => {
         <div className="selfparam">
             <Card className="card">
                 <Card.Header>
-                <h1>Self Parameter <SiIcons.SiPython /></h1>
+                <h1 className='black'>Self Parameter <SiIcons.SiPython /></h1>
                 </Card.Header>
                 <Card.Body>
                     <Card.Text className="texty">

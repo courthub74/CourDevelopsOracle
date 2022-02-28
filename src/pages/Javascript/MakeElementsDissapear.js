@@ -9,7 +9,7 @@ export const MakeElementsDissapear = () => {
 
 <Card>
 
-<Card.Header><h1>Make Elements Dissapear <SiIcons.SiJavascript/></h1></Card.Header>
+<Card.Header><h1 className='black'>Make Elements Dissapear <SiIcons.SiJavascript/></h1></Card.Header>
 
     <Card.Body>
 

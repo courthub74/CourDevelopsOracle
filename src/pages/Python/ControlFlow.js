@@ -7,7 +7,7 @@ export const ControlFlow = () => {
     return (
         <div className="controlflow">
             <Card>
-                <Card.Header><h1>Control-Flow <SiIcons.SiPython /></h1></Card.Header>
+                <Card.Header><h1 className='black'>Control-Flow <SiIcons.SiPython /></h1></Card.Header>
 
                 <Card.Body>
                     <Card.Text className="texty">

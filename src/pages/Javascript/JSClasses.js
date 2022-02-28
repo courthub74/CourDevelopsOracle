@@ -11,7 +11,7 @@ export const JSClasses = () => {
 
                 <Card>
 
-                    <Card.Header><h1>Classes <SiIcons.SiJavascript/></h1></Card.Header>
+                    <Card.Header><h1 className='black'>Classes <SiIcons.SiJavascript/></h1></Card.Header>
 
                         <Card.Body>
 

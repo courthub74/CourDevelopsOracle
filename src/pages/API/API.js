@@ -9,7 +9,7 @@ export const API = () => {
 
             <Card>
 
-                <Card.Header><h1>API <AiIcons.AiFillApi/></h1></Card.Header>
+                <Card.Header><h1 className='black'>API <AiIcons.AiFillApi/></h1></Card.Header>
 
                     <Card.Body>
 

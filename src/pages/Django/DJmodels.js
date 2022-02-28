@@ -9,7 +9,7 @@ export const DJmodels = () => {
 
             
             <Card>
-                <Card.Header><h1><SiIcons.SiDjango /> Models (database) <SiIcons.SiPython /> </h1></Card.Header>
+                <Card.Header><h1 className='black'><SiIcons.SiDjango /> Models (database) <SiIcons.SiPython /> </h1></Card.Header>
                     <Card.Body>
                         <Card.Text>
 

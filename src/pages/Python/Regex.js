@@ -8,7 +8,7 @@ export const Regex = () => {
         <div className='regex'>
             <Card>
 
-                <Card.Header><h1>Regular Expression (Regex) <SiIcons.SiPython /></h1></Card.Header>
+                <Card.Header><h1 className='black'>Regular Expression (Regex) <SiIcons.SiPython /></h1></Card.Header>
                     <Card.Body>
 
                         <Card.Text className='texty'>

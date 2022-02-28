@@ -10,7 +10,7 @@ export const DJsetup = () => {
             
 
             <Card>
-                <Card.Header><h1><SiIcons.SiDjango />ango Setup <SiIcons.SiPython /> </h1></Card.Header>
+                <Card.Header><h1 className='black'><SiIcons.SiDjango />ango Setup <SiIcons.SiPython /> </h1></Card.Header>
                     <Card.Body>
                         <Card.Text>
 

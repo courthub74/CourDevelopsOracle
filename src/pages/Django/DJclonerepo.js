@@ -8,7 +8,7 @@ export const DJclonerepo = () => {
         <div className='djclonerepo'>
 
             <Card>
-                <Card.Header><h1><SiIcons.SiDjango /> Cloning GitHub Repo <SiIcons.SiPython /> </h1></Card.Header>
+                <Card.Header><h1 className='black'><SiIcons.SiDjango /> Cloning GitHub Repo <SiIcons.SiPython /> </h1></Card.Header>
                     <Card.Body>
                         <Card.Text>
 

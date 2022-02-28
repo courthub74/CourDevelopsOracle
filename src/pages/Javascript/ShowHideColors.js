@@ -9,7 +9,7 @@ export const ShowHideColors = () => {
 
                 <Card>
 
-                        <Card.Header><h1>ShowHideColors <SiIcons.SiJavascript/></h1></Card.Header>
+                        <Card.Header><h1 className='black'>ShowHideColors <SiIcons.SiJavascript/></h1></Card.Header>
 
                             <Card.Body>
 

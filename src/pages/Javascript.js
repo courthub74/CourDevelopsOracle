@@ -6,7 +6,7 @@ export const Javascript = () => {
     return (
         <div className='javascript'>
             <Card>
-                <Card.Header><h1>JavaScript <SiIcons.SiJavascript/></h1></Card.Header>
+                <Card.Header><h1 className='black'>JavaScript <SiIcons.SiJavascript/></h1></Card.Header>
                     <Card.Body>
                         <Card.Text>
                         JavaScript is high-level, often just-in-time compiled, and multi-paradigm. <br></br>

@@ -8,7 +8,7 @@ export const JSArrowNotationfunc = () => {
     return (
         <div className='jsarrownotation'>
             <Card>
-                <Card.Header><h1>Functions W.Arrow Notation <SiIcons.SiJavascript/></h1></Card.Header>
+                <Card.Header><h1 className='black'>Functions W.Arrow Notation <SiIcons.SiJavascript/></h1></Card.Header>
 
                 <Card.Body>
 

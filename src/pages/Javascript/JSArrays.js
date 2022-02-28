@@ -9,7 +9,7 @@ export const JSArrays = () => {
 
             <Card>
 
-                <Card.Header><h1>Arrays <SiIcons.SiJavascript/></h1></Card.Header>
+                <Card.Header><h1 className='black'>Arrays <SiIcons.SiJavascript/></h1></Card.Header>
 
                     <Card.Body>
 

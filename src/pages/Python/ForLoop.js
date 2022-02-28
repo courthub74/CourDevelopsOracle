@@ -7,7 +7,7 @@ export const ForLoop = () => {
     return (
         <div className="forloop">
             <Card>
-                <Card.Header><h1>For Loop <SiIcons.SiPython /></h1></Card.Header>
+                <Card.Header><h1 className='black'>For Loop <SiIcons.SiPython /></h1></Card.Header>
                     <Card.Body>
                         <Card.Text className="texty">
                             <span className='bold'>ladies = ["Janet", "Tahani", "Elanore"]</span> <br></br>

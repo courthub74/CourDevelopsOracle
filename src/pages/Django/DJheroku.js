@@ -8,7 +8,7 @@ export const DJheroku = () => {
         <div className='djheroku'>
 
             <Card>
-                <Card.Header><h1><SiIcons.SiDjango />ango Build Deploy to Hero<SiIcons.SiHeroku />u </h1></Card.Header>
+                <Card.Header><h1 className='black'><SiIcons.SiDjango />ango Build Deploy to Hero<SiIcons.SiHeroku />u </h1></Card.Header>
                     <Card.Body>
                         <Card.Text>
                             <Accordion>

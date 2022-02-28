@@ -8,7 +8,7 @@ export const SendingEmail = () => {
         <div className='sendemail'>
             <Card className='card'>
 
-                <Card.Header><h1>Auto Send Email <SiIcons.SiPython /></h1></Card.Header>
+                <Card.Header><h1 className='black'>Auto Send Email <SiIcons.SiPython /></h1></Card.Header>
 
                 <Card.Body>
                     <Card.Text className='smtexty'>

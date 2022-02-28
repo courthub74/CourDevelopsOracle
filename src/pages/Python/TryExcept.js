@@ -7,7 +7,7 @@ export const TryExcept = () => {
     return (
         <div className='tryex'>
             <Card>
-                <Card.Header><h1>Try-Except <SiIcons.SiPython /></h1></Card.Header>
+                <Card.Header><h1 className='black'>Try-Except <SiIcons.SiPython /></h1></Card.Header>
 
                 <Card.Body>
 

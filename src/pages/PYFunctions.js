@@ -7,7 +7,7 @@ export const PYFunctions = () => {
     return (
         <div className='pyfunctions'>
             <Card className='card'>
-            <Card.Header className="center"><h1>Functions <SiIcons.SiPython /></h1>
+            <Card.Header className="center"><h1 className='black'>Functions <SiIcons.SiPython /></h1>
             </Card.Header>
             <Card.Body>
                 <Card.Text className="texty">

@@ -8,7 +8,7 @@ export const DJANGO = () => {
         <div className='django'>
 
             <Card>
-                <Card.Header><h1><SiIcons.SiDjango />ango <SiIcons.SiPython /></h1></Card.Header>
+                <Card.Header><h1 className='black'><SiIcons.SiDjango />ango <SiIcons.SiPython /></h1></Card.Header>
                     <Card.Body>
                         <Card.Text>
                         Django is a high-level Python Web framework <br></br>

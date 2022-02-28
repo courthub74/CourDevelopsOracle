@@ -9,7 +9,7 @@ export const APIsoap = () => {
 
                 <Card>
 
-                <Card.Header><h1>SOAP API <AiIcons.AiFillApi/></h1></Card.Header>
+                <Card.Header><h1 className='black'>SOAP API <AiIcons.AiFillApi/></h1></Card.Header>
 
                     <Card.Body>
 

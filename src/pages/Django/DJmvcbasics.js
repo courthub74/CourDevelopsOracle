@@ -8,7 +8,7 @@ export const DJmvcbasics = () => {
         <div className='djmvcbasics'>
 
             <Card>
-                <Card.Header><h1><SiIcons.SiDjango /> MVC Basics <SiIcons.SiPython />
+                <Card.Header><h1 className='black'><SiIcons.SiDjango /> MVC Basics <SiIcons.SiPython />
                 </h1></Card.Header>
                 <Card.Body>
                     <Card.Text>

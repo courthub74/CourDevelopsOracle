@@ -8,7 +8,7 @@ export const WebScraping = () => {
         <div className='webscrape'>
             <Card className='card'>
 
-                <Card.Header><h1>Web-Scraping HTML <SiIcons.SiPython /></h1></Card.Header>
+                <Card.Header><h1 className='black'>Web-Scraping HTML <SiIcons.SiPython /></h1></Card.Header>
 
                 <Card.Body>
                     <Card.Text className='smtexty'>

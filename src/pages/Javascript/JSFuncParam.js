@@ -9,7 +9,7 @@ export const JSFuncParam = () => {
         <div className='jsfunctions'>
             <Card>
 
-                <Card.Header><h1>Functions W.Parameters <SiIcons.SiJavascript/></h1></Card.Header>
+                <Card.Header><h1 className='black'>Functions W.Parameters <SiIcons.SiJavascript/></h1></Card.Header>
 
                     <Card.Body>
 

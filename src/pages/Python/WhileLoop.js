@@ -9,7 +9,7 @@ export const WhileLoop = () => {
     return (
         <div className="whileloop">
             <Card>
-                <Card.Header><h1>While Loop <SiIcons.SiPython /></h1></Card.Header>
+                <Card.Header><h1 className='black'>While Loop <SiIcons.SiPython /></h1></Card.Header>
                     <Card.Body>
                         <Card.Text className="texty">
                             <span className='bold'>i = 0</span><br></br>

@@ -7,7 +7,7 @@ export const Classes = () => {
     return (
         <div className="classes">
             <Card>
-                <Card.Header><h1>Classes <SiIcons.SiPython /></h1></Card.Header>
+                <Card.Header><h1 className='black'>Classes <SiIcons.SiPython /></h1></Card.Header>
                     <Card.Body>
                         <Card.Text className="texty">
                             <span className="notes">#Classes Basics</span><br></br>
